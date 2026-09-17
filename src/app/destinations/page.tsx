@@ -14,6 +14,14 @@ export const metadata: Metadata = {
   description:
     "Destination guides from Miles & Memories: Banff, Belize, Cancun and the Riviera Maya, Costa Rica and Isla Holbox, with where to stay, what to do and who each trip suits.",
   alternates: { canonical: "/destinations" },
+  openGraph: {
+    images: [
+      {
+        url: "/images/woman-looking-over-a-beautiful-mountainous-lake.webp",
+        alt: "A woman looking out over a mountain lake",
+      },
+    ],
+  },
 };
 
 export default function DestinationsPage() {

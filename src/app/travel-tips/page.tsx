@@ -14,6 +14,14 @@ export const metadata: Metadata = {
   description:
     "Insider travel tips and real trip stories from travel advisor Mandy Gonzales: incentive trips, spring break groups, and destinations she has scouted herself.",
   alternates: { canonical: "/travel-tips" },
+  openGraph: {
+    images: [
+      {
+        url: "/images/a-beauytiful-beach-with-a-white-stone-landscape.webp",
+        alt: "A beach with a white stone landscape",
+      },
+    ],
+  },
 };
 
 export default function TravelTipsPage() {

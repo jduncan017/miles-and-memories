@@ -5,9 +5,14 @@ import Image from "next/image";
  * and sets the copy centred in a dark caption bar across the bottom of the
  * photo rather than over a gradient.
  *
- * Measured off live at 1440: an 800px photo under the 100px bar, a caption
- * band of 80% black with a 5px blur and 40px padding, a 52px Playfair h1 and
- * an uppercase 22px DM Sans semibold tagline in g0, capped at 800px.
+ * Measured off live at 1440: a photo under the 100px bar and a caption band
+ * of 80% black with a 5px blur.
+ *
+ * Deliberately not live's proportions (2026-09-17): live's caption runs three
+ * lines of 52px h1 over an uppercase 22px tagline, which made the band as tall
+ * as a section. The h1 is a size down on a wider measure so it breaks to two
+ * lines, the tagline is sentence case at 18px in n5, and the photo takes the
+ * height the band gives back.
  */
 export function DestinationHero({
   title,
@@ -22,7 +27,7 @@ export function DestinationHero({
 }) {
   return (
     <header data-hero className="DestinationHero bg-g5 pt-19 md:pt-25">
-      <div className="DestinationHeroFrame relative isolate flex h-[40rem] items-end overflow-hidden shadow-theme-sm md:h-[45rem] lg:h-[50rem]">
+      <div className="DestinationHeroFrame relative isolate flex h-[42rem] items-end overflow-hidden shadow-theme-sm md:h-[48rem] lg:h-[54rem]">
         <Image
           src={image}
           alt={imageAlt}
@@ -32,10 +37,10 @@ export function DestinationHero({
           className="DestinationHeroImage -z-10 object-cover"
         />
         <div className="DestinationHeroCaption flex w-full flex-col items-center gap-2 bg-g5/80 px-6 py-8 text-center backdrop-blur-[5px] md:p-10">
-          <h1 className="DestinationHeroTitle max-w-240 text-n0 capitalize">
+          <h1 className="DestinationHeroTitle max-w-300 text-n0 capitalize lg:text-[2.75rem]">
             {title}
           </h1>
-          <p className="DestinationHeroTagline max-w-200 text-lg font-semibold text-g0 uppercase lg:text-[1.375rem]">
+          <p className="DestinationHeroTagline max-w-240 text-base font-medium text-n5 lg:text-lg">
             {tagline}
           </p>
         </div>

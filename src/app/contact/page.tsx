@@ -15,6 +15,14 @@ export const metadata: Metadata = {
   description:
     "Ready to start planning your stress-free trip? Contact Miles & Memories for your complimentary consultation. Corporate travel, Greek life, family & luxury trips.",
   alternates: { canonical: "/contact" },
+  openGraph: {
+    images: [
+      {
+        url: "/images/airplane-flying-overhead-against-the-background-of-a-pink-sk.webp",
+        alt: "An airplane flying overhead against a pink sky",
+      },
+    ],
+  },
 };
 
 // Answers 2 and 3 were closed on live (client-rendered only); captured by

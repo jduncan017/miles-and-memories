@@ -15,6 +15,11 @@ export const metadata: Metadata = {
   description:
     "Expert travel planning services for corporate events, Greek life trips, family groups & luxury travel. Complimentary consultation and full-service planning. View all services.",
   alternates: { canonical: "/services" },
+  openGraph: {
+    images: [
+      { url: "/images/beautiful-secluded-beach.webp", alt: "A secluded beach" },
+    ],
+  },
 };
 
 export default function ServicesPage() {

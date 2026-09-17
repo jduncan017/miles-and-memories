@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ChevronDown } from "lucide-react";
+import { ArrowRight, ChevronDown } from "lucide-react";
 import { Button } from "~/components/Button";
 import { cx } from "~/lib/cx";
 import { NAV_LINKS, PRIMARY_CTA, SERVICES_NAV } from "~/lib/site";
@@ -90,9 +90,7 @@ export function Navbar() {
               : "bg-g5/70",
       )}
     >
-      {/* Same rail as the hero copy (max-w-[100rem], 24/40/80px sides), so the
-          logo lines up with the H1 beneath it. */}
-      <div className="NavbarInner mx-auto flex h-19 max-w-[100rem] items-center justify-between gap-6 px-6 md:h-25 md:px-10 lg:px-20">
+      <div className="NavbarInner mx-auto flex h-19 max-w-[112.5rem] items-center justify-between gap-6 px-6 md:h-25 md:px-10 lg:px-20">
         <Link
           href="/"
           aria-label="Miles & Memories home"
@@ -179,14 +177,13 @@ export function Navbar() {
             )}
           </div>
           {NAV_LINKS.map((l) => (
-            <Link
+            <NavLink
               key={l.href}
               href={l.href}
-              aria-current={pathname.startsWith(l.href) ? "page" : undefined}
-              className="NavbarLink rounded-sm text-lg tracking-[-0.04em] text-n0 uppercase transition-colors duration-500 group-data-[scheme=light]/nav:text-g5 hover:text-p1 group-data-[scheme=light]/nav:hover:text-p3 focus-visible:ring-2 focus-visible:ring-p3 focus-visible:outline-none aria-[current=page]:text-p1 group-data-[scheme=light]/nav:aria-[current=page]:text-p3"
+              current={pathname.startsWith(l.href)}
             >
               {l.label}
-            </Link>
+            </NavLink>
           ))}
         </nav>
 
@@ -250,6 +247,43 @@ export function Navbar() {
         </nav>
       )}
     </header>
+  );
+}
+
+/*
+ * A section link. On hover it turns pink, underlines, and an arrow slides in
+ * from the right; the arrow is absolutely positioned so nothing shifts as it
+ * appears. The current page is already pink and takes no hover treatment at
+ * all: there is nowhere to go.
+ */
+function NavLink({
+  href,
+  current,
+  children,
+}: {
+  href: string;
+  current: boolean;
+  children: React.ReactNode;
+}) {
+  return (
+    <Link
+      href={href}
+      aria-current={current ? "page" : undefined}
+      className={cx(
+        "NavLink group/link relative rounded-sm text-lg tracking-[-0.04em] uppercase transition-colors duration-500 focus-visible:ring-2 focus-visible:ring-p3 focus-visible:outline-none",
+        current
+          ? "NavLinkCurrent cursor-default text-p3"
+          : "text-n0 group-data-[scheme=light]/nav:text-g5 hover:text-p3 hover:underline hover:decoration-1 hover:underline-offset-4",
+      )}
+    >
+      {children}
+      {!current && (
+        <ArrowRight
+          aria-hidden="true"
+          className="NavLinkArrow absolute top-1/2 -right-6 size-5 translate-x-2 -translate-y-1/2 text-p3 opacity-0 transition-all duration-300 group-hover/link:translate-x-0 group-hover/link:opacity-100"
+        />
+      )}
+    </Link>
   );
 }
 

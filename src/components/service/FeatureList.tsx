@@ -1,34 +1,34 @@
 import Image from "next/image";
 import {
-  BriefcaseBusiness,
-  CalendarDays,
-  CircleDollarSign,
-  Box,
-  Ship,
-  Sparkles,
-  Sun,
-  Users,
-  type LucideIcon,
-} from "lucide-react";
+  BriefcaseIcon,
+  CalendarDaysIcon,
+  CubeIcon,
+  CurrencyDollarIcon,
+  LifebuoyIcon,
+  SparklesIcon,
+  SunIcon,
+  UsersIcon,
+} from "@heroicons/react/24/solid";
 import { Button } from "~/components/Button";
 import { SectionHeader } from "~/components/SectionHeader";
 import { SectionWrapper } from "~/components/SectionWrapper";
 import type { ServiceIcon, ServiceImage } from "~/content/services";
 
 /*
- * Lucide stand-ins for the Heroicons the live pages inlined (calendar-days,
+ * The Heroicons the live pages inlined (calendar-days,
  * sparkles, currency-dollar, user-group, cube-transparent, sun, a ship and a
  * briefcase).
  */
-const ICONS: Record<ServiceIcon, LucideIcon> = {
-  calendar: CalendarDays,
-  sparkles: Sparkles,
-  dollar: CircleDollarSign,
-  users: Users,
-  cube: Box,
-  sun: Sun,
-  ship: Ship,
-  briefcase: BriefcaseBusiness,
+/* The solid Heroicons the live pages inlined, from the same set. */
+const ICONS: Record<ServiceIcon, typeof CalendarDaysIcon> = {
+  calendar: CalendarDaysIcon,
+  sparkles: SparklesIcon,
+  dollar: CurrencyDollarIcon,
+  users: UsersIcon,
+  cube: CubeIcon,
+  sun: SunIcon,
+  ship: LifebuoyIcon,
+  briefcase: BriefcaseIcon,
 };
 
 /*
@@ -57,12 +57,8 @@ export function FeatureList({
             const Icon = ICONS[item.icon];
             return (
               <li key={item.title} className="FeatureItem flex gap-3 lg:gap-4">
-                {/* Live used solid Heroicons here. Filling the lucide outline
-                    equivalents turns the calendar into a pink block, so these
-                    stay outlined; a real solid icon set would be the fix. */}
                 <Icon
                   aria-hidden="true"
-                  strokeWidth={1.75}
                   className="FeatureItemIcon mt-0.5 size-7.5 shrink-0 text-p3"
                 />
                 <div className="flex flex-col gap-2">

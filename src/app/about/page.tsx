@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   description:
     "Meet Mandy Gonzales, the travel planner behind Miles & Memories. 5+ years, 250+ clients and 1000+ trips planned through Travelmation's network, with no planning fees.",
   alternates: { canonical: "/about" },
+  openGraph: {
+    images: [
+      {
+        url: "/images/high-end-spanish-style-hotel-pool-near-the-ocean.webp",
+        alt: "A high end Spanish style hotel pool near the ocean",
+      },
+    ],
+  },
 };
 
 export default function AboutPage() {
