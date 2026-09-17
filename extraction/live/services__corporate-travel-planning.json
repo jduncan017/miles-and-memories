@@ -1,0 +1,545 @@
+{
+ "path": "/services/corporate-travel-planning",
+ "status": 200,
+ "meta": {
+  "title": "Corporate Travel Planning & Event Management | Miles & Memories",
+  "description": "Expert corporate travel planning for conferences, retreats & team events. Complimentary service that delivers flawless execution within budget. Get your free consultation.",
+  "canonical": "https://www.milesandmemories.net/services/corporate-travel-planning",
+  "ogImage": "https://framerusercontent.com/images/BnfjLxOZLtOQXGbz2DwzVty3Y5k.png",
+  "lang": "en",
+  "jsonLd": []
+ },
+ "height": 8160,
+ "type": [
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(255, 255, 255)",
+   "transform": "none",
+   "y": 35,
+   "sample": "Plan My Trip",
+   "count": 5
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "-0.7px",
+   "color": "rgb(255, 255, 255)",
+   "transform": "uppercase",
+   "y": 36,
+   "sample": "Travel Services",
+   "count": 6
+  },
+  {
+   "tag": "H1",
+   "font": "Playfair Display",
+   "size": "52px",
+   "weight": "600",
+   "lh": "62.4px",
+   "tracking": "1.04px",
+   "color": "rgb(254, 252, 247)",
+   "transform": "capitalize",
+   "y": 600,
+   "sample": "Corporate Travel & Event Management That Actually ",
+   "count": 1
+  },
+  {
+   "tag": "SPAN",
+   "font": "DM Sans",
+   "size": "22px",
+   "weight": "500",
+   "lh": "30.8px",
+   "tracking": "0.44px",
+   "color": "rgb(214, 54, 99)",
+   "transform": "none",
+   "y": 790,
+   "sample": "Zero fees, maximum impact,",
+   "count": 3
+  },
+  {
+   "tag": "H2",
+   "font": "DM Sans",
+   "size": "32px",
+   "weight": "700",
+   "lh": "38.4px",
+   "tracking": "2.88px",
+   "color": "rgb(0, 0, 0)",
+   "transform": "uppercase",
+   "y": 1031,
+   "sample": "Your Secret Weapon for Flawless Corporate Events",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "Playfair Display",
+   "size": "22px",
+   "weight": "400",
+   "lh": "30.8px",
+   "tracking": "0.5px",
+   "color": "rgb(58, 58, 58)",
+   "transform": "capitalize",
+   "y": 1122,
+   "sample": "While other companies stress about the logistics, ",
+   "count": 1
+  },
+  {
+   "tag": "H2",
+   "font": "Playfair Display",
+   "size": "48px",
+   "weight": "500",
+   "lh": "57.6px",
+   "tracking": "normal",
+   "color": "rgb(0, 0, 0)",
+   "transform": "capitalize",
+   "y": 1386,
+   "sample": "Why Executive Teams Choose Miles & Memories",
+   "count": 5
+  },
+  {
+   "tag": "H3",
+   "font": "DM Sans",
+   "size": "28px",
+   "weight": "600",
+   "lh": "33.6px",
+   "tracking": "0.28px",
+   "color": "rgb(58, 58, 58)",
+   "transform": "none",
+   "y": 1507,
+   "sample": "We Handle Everything",
+   "count": 9
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(83, 83, 83)",
+   "transform": "none",
+   "y": 1549,
+   "sample": "Budget tracking, deadline management, vendor negot",
+   "count": 10
+  },
+  {
+   "tag": "SPAN",
+   "font": "DM Sans",
+   "size": "28px",
+   "weight": "600",
+   "lh": "33.6px",
+   "tracking": "0.28px",
+   "color": "rgb(214, 54, 99)",
+   "transform": "none",
+   "y": 2650,
+   "sample": "1.",
+   "count": 3
+  },
+  {
+   "tag": "H3",
+   "font": "DM Sans",
+   "size": "28px",
+   "weight": "600",
+   "lh": "33.6px",
+   "tracking": "0.28px",
+   "color": "rgb(38, 38, 38)",
+   "transform": "none",
+   "y": 2652,
+   "sample": "1. Zero-Cost Expertise",
+   "count": 3
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "normal",
+   "color": "rgb(83, 83, 83)",
+   "transform": "none",
+   "y": 2702,
+   "sample": "Our services are 100% free to your company. We're ",
+   "count": 4
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "22px",
+   "weight": "500",
+   "lh": "30.8px",
+   "tracking": "0.44px",
+   "color": "rgb(0, 0, 0)",
+   "transform": "none",
+   "y": 5489,
+   "sample": "“After a year of working with Mandy, we couldn’t b",
+   "count": 1
+  },
+  {
+   "tag": "H3",
+   "font": "DM Sans",
+   "size": "24px",
+   "weight": "600",
+   "lh": "28.8px",
+   "tracking": "0.24px",
+   "color": "rgb(0, 0, 0)",
+   "transform": "none",
+   "y": 6171,
+   "sample": "What is the scope of your on-site support?",
+   "count": 3
+  },
+  {
+   "tag": "H2",
+   "font": "Playfair Display",
+   "size": "48px",
+   "weight": "500",
+   "lh": "57.6px",
+   "tracking": "normal",
+   "color": "rgb(255, 255, 255)",
+   "transform": "capitalize",
+   "y": 6847,
+   "sample": "Elevate Your Next Corporate Trip, Effortlessly.",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(254, 252, 247)",
+   "transform": "none",
+   "y": 6978,
+   "sample": "Let's discuss how our complimentary service can de",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 7493,
+   "sample": "Corporate Travel",
+   "count": 7
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 7722,
+   "sample": "(832) 320-1285",
+   "count": 2
+  },
+  {
+   "tag": "H3",
+   "font": "DM Sans",
+   "size": "28px",
+   "weight": "600",
+   "lh": "33.6px",
+   "tracking": "0.28px",
+   "color": "rgb(255, 255, 255)",
+   "transform": "none",
+   "y": 7856,
+   "sample": "Follow Us on Social Media",
+   "count": 1
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(214, 54, 99)",
+   "transform": "none",
+   "y": 7902,
+   "sample": "Travelmation.net",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 8018,
+   "sample": "Copyright © 2025 Miles & Memories. All Rights Rese",
+   "count": 1
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 8054,
+   "sample": "Site Developed by DigitalNova Studios",
+   "count": 3
+  }
+ ],
+ "colors": [
+  [
+   "rgb(0, 0, 0)",
+   267
+  ],
+  [
+   "rgb(0, 0, 238)",
+   89
+  ],
+  [
+   "rgb(214, 54, 99)",
+   26
+  ],
+  [
+   "rgb(255, 255, 255)",
+   20
+  ],
+  [
+   "rgb(83, 83, 83)",
+   16
+  ],
+  [
+   "rgb(224, 224, 224)",
+   14
+  ],
+  [
+   "rgb(58, 58, 58)",
+   12
+  ],
+  [
+   "rgb(254, 252, 247)",
+   5
+  ],
+  [
+   "rgb(38, 38, 38)",
+   3
+  ]
+ ],
+ "backgrounds": [
+  [
+   "rgb(214, 54, 99)",
+   13
+  ],
+  [
+   "rgb(255, 255, 255)",
+   12
+  ],
+  [
+   "rgba(255, 255, 255, 0)",
+   10
+  ],
+  [
+   "rgb(0, 0, 0)",
+   6
+  ],
+  [
+   "rgb(133, 132, 129)",
+   2
+  ],
+  [
+   "rgb(15, 15, 15)",
+   1
+  ],
+  [
+   "rgba(0, 0, 0, 0.2)",
+   1
+  ],
+  [
+   "rgb(224, 224, 224)",
+   1
+  ],
+  [
+   "rgba(0, 0, 0, 0.25)",
+   1
+  ],
+  [
+   "rgba(0, 0, 0, 0.5)",
+   1
+  ],
+  [
+   "rgb(38, 38, 38)",
+   1
+  ]
+ ],
+ "bgImages": [],
+ "media": [
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/Q1PtFhbSEf2pZiQFLdG003atrs.png",
+   "alt": "Miles & Memories White Logo",
+   "w": 140,
+   "h": 40,
+   "y": 30,
+   "natural": "1187x436",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/XOle9a1dmJuWvjutHzKR8253Q.png",
+   "alt": "",
+   "w": 101,
+   "h": 40,
+   "y": 30,
+   "natural": "100x39",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/w7AAlCkVSHvqheTC0UaDOce4.webp",
+   "alt": "Beachside resort",
+   "w": 1440,
+   "h": 931,
+   "y": 0,
+   "natural": "1440x960",
+   "objectFit": "cover",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/DUv4J1n2DU6VAsAroFmAINTJSw.webp",
+   "alt": "Miami highrises",
+   "w": 568,
+   "h": 654,
+   "y": 1507,
+   "natural": "665x443",
+   "objectFit": "cover",
+   "radius": "16px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/2Ao9jQpixSucRQba4HSgFIGUNI.jpg",
+   "alt": "Beautiful hotel lobby",
+   "w": 568,
+   "h": 538,
+   "y": 3242,
+   "natural": "568x852",
+   "objectFit": "cover",
+   "radius": "16px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/54VwstzeHLeF5nllZr0dlApDySI.webp",
+   "alt": "Company team supporting teammate",
+   "w": 600,
+   "h": 450,
+   "y": 4232,
+   "natural": "599x400",
+   "objectFit": "cover",
+   "radius": "16px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/lUV23uLe0OB88Nck5j7BbFwMG7w.webp",
+   "alt": "Business man in suit on highrise balcony",
+   "w": 600,
+   "h": 450,
+   "y": 4762,
+   "natural": "599x400",
+   "objectFit": "cover",
+   "radius": "16px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/wGtaOjbvi43XxxKz8WlbbQvcg.webp",
+   "alt": "Nicole M. headshot",
+   "w": 240,
+   "h": 240,
+   "y": 5472,
+   "natural": "240x300",
+   "objectFit": "cover",
+   "radius": "1000px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/yixMfNmcE76Zs4EVkFXFl0836Sc.webp",
+   "alt": "Airplane on runway at dusk",
+   "w": 1440,
+   "h": 763,
+   "y": 6607,
+   "natural": "1440x960",
+   "objectFit": "cover",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/fIEAfBsOHiF3BIZP4WMty55esTs.png",
+   "alt": "Miles & Memories White Logo Full",
+   "w": 340,
+   "h": 200,
+   "y": 7450,
+   "natural": "1187x739",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/aApXatHdl96qxTRZh76k5w2paA.png",
+   "alt": "travelmation logo",
+   "w": 348,
+   "h": 64,
+   "y": 7823,
+   "natural": "348x49",
+   "objectFit": "contain",
+   "radius": "0px"
+  }
+ ],
+ "fonts": [
+  "DM Sans 600 normal",
+  "Playfair Display 400 normal",
+  "Playfair Display 500 normal",
+  "Playfair Display 600 normal",
+  "DM Sans 900 normal",
+  "DM Sans 500 normal",
+  "DM Sans 700 normal",
+  "DM Sans 500 italic",
+  "DM Sans Placeholder normal normal",
+  "Playfair Display Placeholder normal normal"
+ ],
+ "links": [
+  "../",
+  "../about",
+  "../destinations",
+  "../travel-tips",
+  "../contact",
+  "tel:8323201285",
+  "mailto:mandygonzales@travelmation.net",
+  "https://www.instagram.com/themandygonzales?igsh=dXpyaTNyZzJmc2J0",
+  "https://www.facebook.com/share/16kMLiYD31/?mibextid=wwXIfr",
+  "https://www.linkedin.com/in/mandygonzales-travel",
+  "./corporate-travel-planning",
+  "./friends-group-travel-planning",
+  "./greek-life-travel-planning",
+  "./luxury-travel-planning",
+  "../booking",
+  "https://www.travelmation.net",
+  "https://www.digitalnovastudio.com",
+  "../privacy",
+  "../terms-and-conditions"
+ ],
+ "iframes": [
+  "https://framer.com/edit?framerSiteId=ef8f922bad53e8be1a143f2158fa60b8b63a07861acef84f5d79250404eba121&source=www.milesandmemories.net&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1789617995391"
+ ]
+}

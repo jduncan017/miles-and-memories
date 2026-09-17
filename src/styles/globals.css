@@ -1,0 +1,233 @@
+@import "tailwindcss";
+
+/*
+ * Miles & Memories design tokens.
+ *
+ * Structure follows dns-component-library/design-system: four ramps, 0 =
+ * lightest → 5 = darkest, and components reference a POSITION, never a hue.
+ * Where this site deviates from the library (the type scale, mostly), the
+ * reason is in docs/reference/design-system.md §0.
+ */
+@theme {
+  --font-body:
+    var(--font-body-face), ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  --font-heading:
+    var(--font-heading-face), ui-serif, Georgia, "Times New Roman", serif;
+
+  /*
+   * ── Type scale ──
+   * Measured off the live Framer build at 390 / 810 / 1440 rather than taken
+   * from the library's golden-ratio scale, so the rebuild reads the same. The
+   * values step at md (768) and lg (1024) via the --fs-* variables in the base layer; the
+   * tokens below only name them. One exception to "match live": body copy has
+   * a 16px floor on phones (live dropped to 14px).
+   *
+   *   token       phone  tablet  desktop   used for
+   *   text-sm     14     15      16        meta, captions, fine print
+   *   text-base   16     16      18        body
+   *   text-lg     16     18      20        lead paragraphs, nav, buttons
+   *   text-xl     18     20      24        h4 / card titles
+   *   text-2xl    24     26      28        h3
+   *   text-3xl    32     40      48        h2
+   *   text-4xl    32     39      52        h1
+   *   text-stat   40     48      48        big numbers
+   */
+  --text-sm: var(--fs-sm);
+  --text-sm--line-height: 1.5;
+  --text-base: var(--fs-base);
+  --text-base--line-height: 1.5;
+  --text-lg: var(--fs-lg);
+  --text-lg--line-height: 1.5;
+  --text-xl: var(--fs-xl);
+  --text-xl--line-height: 1.2;
+  --text-2xl: var(--fs-2xl);
+  --text-2xl--line-height: 1.2;
+  --text-3xl: var(--fs-3xl);
+  --text-3xl--line-height: 1.2;
+  --text-4xl: var(--fs-4xl);
+  --text-4xl--line-height: 1.2;
+  --text-stat: var(--fs-stat);
+  --text-stat--line-height: 1.1;
+
+  /* ── BRAND PALETTE — the 24 hexes that rebrand the site ── */
+
+  /* Neutrals: warm creams. n1 is the page cream, n2 the band gradient's far end. */
+  --color-n0: #ffffff;
+  --color-n1: #fefcf7;
+  --color-n2: #f6f1e4;
+  --color-n3: #ede8da;
+  --color-n4: #ddd8cb;
+  --color-n5: #c9c4b7;
+
+  /* Primary: the brand pink. p3 is the logo ampersand and the protected CTA fill. */
+  --color-p0: #fcedf1;
+  --color-p1: #f7c9d6;
+  --color-p2: #ef799a;
+  --color-p3: #d63663;
+  --color-p4: #b0284f;
+  --color-p5: #7a1a37;
+
+  /* Greys: text, borders, the dark bands. g5 is near-black, never pure black. */
+  --color-g0: #e0e0e0;
+  --color-g1: #858481;
+  --color-g2: #535353;
+  --color-g3: #3a3a3a;
+  --color-g4: #262626;
+  --color-g5: #0f0f0f;
+
+  /*
+   * Accent: wine. The live site has one hue; its only other colour is the
+   * near-black wine that the hero overlays fade into. This ramp gives that a
+   * name so photo overlays and dark accents have a token to reach for.
+   */
+  --color-s0: #f6ecee;
+  --color-s1: #e3c3c9;
+  --color-s2: #b77883;
+  --color-s3: #6e2a38;
+  --color-s4: #3b0f19;
+  --color-s5: #210004;
+
+  --container-section: 75rem; /* 1200px */
+  --container-section-wide: 87.5rem; /* 1400px */
+  --container-text: 45rem; /* 720px */
+
+  /* The three elevation steps. The live cards use a soft offset drop. */
+  --shadow-theme-sm: 0.125rem 0.125rem 0.25rem rgb(0 0 0 / 0.25);
+  --shadow-theme: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 0.25);
+  --shadow-theme-xl: 0.5rem 0.5rem 1rem rgb(0 0 0 / 0.25);
+
+  --animate-marquee: marquee 60s linear infinite;
+  --animate-dropdown-in: dropdown-in 0.25s ease both;
+}
+
+@layer base {
+  :root {
+    --fs-sm: 0.875rem;
+    --fs-base: 1rem;
+    --fs-lg: 1rem;
+    --fs-xl: 1.125rem;
+    --fs-2xl: 1.5rem;
+    --fs-3xl: 2rem;
+    --fs-4xl: 2rem;
+    --fs-stat: 2.5rem;
+  }
+  @media (min-width: 48rem) {
+    :root {
+      --fs-sm: 0.9375rem;
+      --fs-lg: 1.125rem;
+      --fs-xl: 1.25rem;
+      --fs-2xl: 1.625rem;
+      --fs-3xl: 2.5rem;
+      --fs-4xl: 2.4375rem;
+      --fs-stat: 3rem;
+    }
+  }
+  @media (min-width: 64rem) {
+    :root {
+      --fs-sm: 1rem;
+      --fs-base: 1.125rem;
+      --fs-lg: 1.25rem;
+      --fs-xl: 1.5rem;
+      --fs-2xl: 1.75rem;
+      --fs-3xl: 3rem;
+      --fs-4xl: 3.25rem;
+    }
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    font-weight: 500;
+    color: var(--color-g3);
+    background: var(--color-n1);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]) {
+    cursor: pointer;
+  }
+
+  /*
+   * h1/h2 are the Playfair display voice; h3 and below are DM Sans, which is
+   * what the live site does (card and list titles are sans, semibold).
+   */
+  h1,
+  h2 {
+    font-family: var(--font-heading);
+    line-height: 1.2;
+    color: var(--color-g5);
+    text-wrap: balance;
+  }
+  h1 {
+    font-size: var(--text-4xl);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+  h2 {
+    font-size: var(--text-3xl);
+    font-weight: 500;
+  }
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-body);
+    line-height: 1.2;
+    color: var(--color-g5);
+  }
+  h3 {
+    font-size: var(--text-2xl);
+    font-weight: 600;
+    letter-spacing: 0.01em;
+  }
+  h4 {
+    font-size: var(--text-xl);
+    font-weight: 700;
+  }
+  h5,
+  h6 {
+    font-size: var(--text-lg);
+    font-weight: 600;
+  }
+
+  p,
+  li {
+    font-size: var(--text-base);
+    line-height: 1.5;
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes dropdown-in {
+  from {
+    opacity: 0;
+    transform: translateY(-0.25rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

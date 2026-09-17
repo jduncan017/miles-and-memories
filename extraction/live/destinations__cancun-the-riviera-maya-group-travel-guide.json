@@ -1,0 +1,483 @@
+{
+ "path": "/destinations/cancun-the-riviera-maya-group-travel-guide",
+ "status": 200,
+ "meta": {
+  "title": "Cancun & Riviera Maya Group Travel Guide | Miles & Memories",
+  "description": "Everything you need to plan a group trip to Cancun — resorts, excursions, what to expect, and how to make it seamless for 10 to 350+ travelers.",
+  "canonical": "https://www.milesandmemories.net/destinations/cancun-the-riviera-maya-group-travel-guide",
+  "ogImage": "https://framerusercontent.com/images/5RQDg7TfTNsNHspi6LRj2UGkFs.webp?width=1960&height=1312",
+  "lang": "en",
+  "jsonLd": []
+ },
+ "height": 9956,
+ "type": [
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(255, 255, 255)",
+   "transform": "none",
+   "y": 35,
+   "sample": "Plan My Trip",
+   "count": 3
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "-0.7px",
+   "color": "rgb(255, 255, 255)",
+   "transform": "uppercase",
+   "y": 36,
+   "sample": "Travel Services",
+   "count": 6
+  },
+  {
+   "tag": "H1",
+   "font": "Playfair Display",
+   "size": "52px",
+   "weight": "600",
+   "lh": "62.4px",
+   "tracking": "1.04px",
+   "color": "rgb(255, 255, 255)",
+   "transform": "capitalize",
+   "y": 757,
+   "sample": "Cancun & The Riviera Maya",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "22px",
+   "weight": "600",
+   "lh": "33px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "uppercase",
+   "y": 827,
+   "sample": "ALL-INCLUSIVE RESORTS, WARM WATER, & INCREDIBLE WE",
+   "count": 1
+  },
+  {
+   "tag": "H2",
+   "font": "Playfair Display",
+   "size": "48px",
+   "weight": "500",
+   "lh": "57.6px",
+   "tracking": "normal",
+   "color": "rgb(0, 0, 0)",
+   "transform": "capitalize",
+   "y": 1020,
+   "sample": "Introduction",
+   "count": 2
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(58, 58, 58)",
+   "transform": "none",
+   "y": 1102,
+   "sample": "Cancun has a reputation; and honestly, it's earned",
+   "count": 19
+  },
+  {
+   "tag": "H2",
+   "font": "Playfair Display",
+   "size": "48px",
+   "weight": "500",
+   "lh": "57.6px",
+   "tracking": "normal",
+   "color": "rgb(13, 13, 13)",
+   "transform": "capitalize",
+   "y": 2602,
+   "sample": "Getting There",
+   "count": 3
+  },
+  {
+   "tag": "H3",
+   "font": "DM Sans",
+   "size": "24px",
+   "weight": "600",
+   "lh": "28.8px",
+   "tracking": "0.24px",
+   "color": "rgb(0, 0, 0)",
+   "transform": "none",
+   "y": 3989,
+   "sample": "The Choices That Matter",
+   "count": 12
+  },
+  {
+   "tag": "H2",
+   "font": "Playfair Display",
+   "size": "36px",
+   "weight": "400",
+   "lh": "43.2px",
+   "tracking": "normal",
+   "color": "rgb(13, 13, 13)",
+   "transform": "capitalize",
+   "y": 6348,
+   "sample": "Who Cancun Is Right For",
+   "count": 1
+  },
+  {
+   "tag": "H2",
+   "font": "Playfair Display",
+   "size": "36px",
+   "weight": "400",
+   "lh": "43.2px",
+   "tracking": "normal",
+   "color": "rgb(58, 58, 58)",
+   "transform": "capitalize",
+   "y": 7459,
+   "sample": "How We Took 347 Students to Cancun for Spring Brea",
+   "count": 1
+  },
+  {
+   "tag": "H2",
+   "font": "Playfair Display",
+   "size": "48px",
+   "weight": "500",
+   "lh": "57.6px",
+   "tracking": "normal",
+   "color": "rgb(255, 255, 255)",
+   "transform": "capitalize",
+   "y": 8721,
+   "sample": "Ready to Plan Your Cancun Group Trip?",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(254, 252, 247)",
+   "transform": "none",
+   "y": 8794,
+   "sample": "Whether it's spring break for your chapter, a corp",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 9289,
+   "sample": "Corporate Travel",
+   "count": 7
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 9518,
+   "sample": "(832) 320-1285",
+   "count": 2
+  },
+  {
+   "tag": "H3",
+   "font": "DM Sans",
+   "size": "28px",
+   "weight": "600",
+   "lh": "33.6px",
+   "tracking": "0.28px",
+   "color": "rgb(255, 255, 255)",
+   "transform": "none",
+   "y": 9652,
+   "sample": "Follow Us on Social Media",
+   "count": 1
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(214, 54, 99)",
+   "transform": "none",
+   "y": 9698,
+   "sample": "Travelmation.net",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 9814,
+   "sample": "Copyright © 2025 Miles & Memories. All Rights Rese",
+   "count": 1
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 9850,
+   "sample": "Site Developed by DigitalNova Studios",
+   "count": 3
+  }
+ ],
+ "colors": [
+  [
+   "rgb(0, 0, 0)",
+   171
+  ],
+  [
+   "rgb(0, 0, 238)",
+   79
+  ],
+  [
+   "rgb(58, 58, 58)",
+   20
+  ],
+  [
+   "rgb(255, 255, 255)",
+   19
+  ],
+  [
+   "rgb(224, 224, 224)",
+   14
+  ],
+  [
+   "rgb(13, 13, 13)",
+   4
+  ],
+  [
+   "rgb(254, 252, 247)",
+   4
+  ],
+  [
+   "rgb(83, 83, 83)",
+   2
+  ],
+  [
+   "rgb(214, 54, 99)",
+   1
+  ]
+ ],
+ "backgrounds": [
+  [
+   "rgb(214, 54, 99)",
+   11
+  ],
+  [
+   "rgba(255, 255, 255, 0)",
+   10
+  ],
+  [
+   "rgb(255, 255, 255)",
+   8
+  ],
+  [
+   "rgb(254, 252, 247)",
+   5
+  ],
+  [
+   "rgb(0, 0, 0)",
+   4
+  ],
+  [
+   "rgba(0, 0, 0, 0.8)",
+   1
+  ],
+  [
+   "rgba(0, 0, 0, 0.6)",
+   1
+  ],
+  [
+   "rgb(38, 38, 38)",
+   1
+  ],
+  [
+   "rgb(133, 132, 129)",
+   1
+  ]
+ ],
+ "bgImages": [],
+ "media": [
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/Q1PtFhbSEf2pZiQFLdG003atrs.png",
+   "alt": "Miles & Memories White Logo",
+   "w": 140,
+   "h": 40,
+   "y": 30,
+   "natural": "1187x436",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/XOle9a1dmJuWvjutHzKR8253Q.png",
+   "alt": "",
+   "w": 101,
+   "h": 40,
+   "y": 30,
+   "natural": "100x39",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/5RQDg7TfTNsNHspi6LRj2UGkFs.webp",
+   "alt": "Chichen Itza",
+   "w": 1440,
+   "h": 800,
+   "y": 100,
+   "natural": "1439x963",
+   "objectFit": "cover",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/p2wNCsbdQButqhvNbAH6oi8ESrY.webp",
+   "alt": "Beach at Cancun, MX",
+   "w": 488,
+   "h": 898,
+   "y": 980,
+   "natural": "500x750",
+   "objectFit": "cover",
+   "radius": "6px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/SBsMDxIrigXib7OX63vLJo6Tsjw.webp",
+   "alt": "Flyover of Cancun",
+   "w": 880,
+   "h": 540,
+   "y": 2022,
+   "natural": "880x660",
+   "objectFit": "cover",
+   "radius": "6px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/mswK6luaQ3Q864TPBQX3WtU6dQ.webp",
+   "alt": "Cancun Resort",
+   "w": 880,
+   "h": 540,
+   "y": 3199,
+   "natural": "880x1173",
+   "objectFit": "cover",
+   "radius": "6px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/Tuy0OAJCfwFeFfKzvUbsZO1g.webp",
+   "alt": "Cancun shaded beach beds",
+   "w": 500,
+   "h": 976,
+   "y": 4688,
+   "natural": "500x750",
+   "objectFit": "cover",
+   "radius": "6px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/thfkdti8q95MV1h81YnlxpPMwBc.webp",
+   "alt": "Cancun street vendors",
+   "w": 880,
+   "h": 500,
+   "y": 5808,
+   "natural": "880x586",
+   "objectFit": "cover",
+   "radius": "6px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/1Ncqe8NjRN2E37tPc9L0D2gT4Uk.webp",
+   "alt": "Pelican on a post in the ocean",
+   "w": 1440,
+   "h": 606,
+   "y": 8561,
+   "natural": "1439x1079",
+   "objectFit": "cover",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/fIEAfBsOHiF3BIZP4WMty55esTs.png",
+   "alt": "Miles & Memories White Logo Full",
+   "w": 340,
+   "h": 200,
+   "y": 9246,
+   "natural": "1187x739",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/aApXatHdl96qxTRZh76k5w2paA.png",
+   "alt": "travelmation logo",
+   "w": 348,
+   "h": 64,
+   "y": 9619,
+   "natural": "348x49",
+   "objectFit": "contain",
+   "radius": "0px"
+  }
+ ],
+ "fonts": [
+  "DM Sans 600 normal",
+  "Playfair Display 400 normal",
+  "Playfair Display 500 normal",
+  "Playfair Display 600 normal",
+  "DM Sans 500 normal",
+  "DM Sans Placeholder normal normal",
+  "Playfair Display Placeholder normal normal"
+ ],
+ "links": [
+  "../",
+  "../about",
+  "../destinations",
+  "../travel-tips",
+  "../contact",
+  "../travel-tips/how-i-managed-the-biggest-spring-break-trip-of-my-career",
+  "tel:8323201285",
+  "mailto:mandygonzales@travelmation.net",
+  "https://www.instagram.com/themandygonzales?igsh=dXpyaTNyZzJmc2J0",
+  "https://www.facebook.com/share/16kMLiYD31/?mibextid=wwXIfr",
+  "https://www.linkedin.com/in/mandygonzales-travel",
+  "../services/corporate-travel-planning",
+  "../services/friends-group-travel-planning",
+  "../services/greek-life-travel-planning",
+  "../services/luxury-travel-planning",
+  "../booking",
+  "https://www.travelmation.net",
+  "https://www.digitalnovastudio.com",
+  "../privacy",
+  "../terms-and-conditions"
+ ],
+ "iframes": [
+  "https://framer.com/edit?framerSiteId=ef8f922bad53e8be1a143f2158fa60b8b63a07861acef84f5d79250404eba121&source=www.milesandmemories.net&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1789618069313"
+ ]
+}

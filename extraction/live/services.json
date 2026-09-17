@@ -1,0 +1,441 @@
+{
+ "path": "/services",
+ "status": 200,
+ "meta": {
+  "title": "Travel Planning Services | Corporate, Greek Life & Group Travel",
+  "description": "Expert travel planning services for corporate events, Greek life trips, family groups & luxury travel. Complimentary consultation and full-service planning. View all services.",
+  "canonical": "https://www.milesandmemories.net/services",
+  "ogImage": "https://framerusercontent.com/images/BnfjLxOZLtOQXGbz2DwzVty3Y5k.png",
+  "lang": "en",
+  "jsonLd": []
+ },
+ "height": 3812,
+ "type": [
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(255, 255, 255)",
+   "transform": "none",
+   "y": 35,
+   "sample": "Plan My Trip",
+   "count": 3
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "-0.7px",
+   "color": "rgb(255, 255, 255)",
+   "transform": "uppercase",
+   "y": 36,
+   "sample": "Travel Services",
+   "count": 6
+  },
+  {
+   "tag": "H1",
+   "font": "Playfair Display",
+   "size": "52px",
+   "weight": "600",
+   "lh": "62.4px",
+   "tracking": "1.04px",
+   "color": "rgb(254, 252, 247)",
+   "transform": "capitalize",
+   "y": 600,
+   "sample": "Travel Planning Services: From Vision to Vacation",
+   "count": 1
+  },
+  {
+   "tag": "SPAN",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(214, 54, 99)",
+   "transform": "none",
+   "y": 761,
+   "sample": "costs you nothing",
+   "count": 1
+  },
+  {
+   "tag": "H2",
+   "font": "Playfair Display",
+   "size": "48px",
+   "weight": "500",
+   "lh": "57.6px",
+   "tracking": "normal",
+   "color": "rgb(0, 0, 0)",
+   "transform": "capitalize",
+   "y": 999,
+   "sample": "Complete Travel Solutions for Every Journey",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(58, 58, 58)",
+   "transform": "none",
+   "y": 1080,
+   "sample": "Whether you're planning a corporate retreat or a f",
+   "count": 1
+  },
+  {
+   "tag": "H4",
+   "font": "DM Sans",
+   "size": "24px",
+   "weight": "700",
+   "lh": "28.8px",
+   "tracking": "normal",
+   "color": "rgb(255, 255, 255)",
+   "transform": "capitalize",
+   "y": 1563,
+   "sample": "Corporate Travel & Events",
+   "count": 4
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 1596,
+   "sample": "Transform your business events from logistical hea",
+   "count": 5
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "24px",
+   "weight": "600",
+   "lh": "26.4px",
+   "tracking": "normal",
+   "color": "rgb(214, 54, 99)",
+   "transform": "capitalize",
+   "y": 1725,
+   "sample": "Learn More",
+   "count": 4
+  },
+  {
+   "tag": "H2",
+   "font": "Playfair Display",
+   "size": "48px",
+   "weight": "500",
+   "lh": "57.6px",
+   "tracking": "normal",
+   "color": "rgb(255, 255, 255)",
+   "transform": "capitalize",
+   "y": 2606,
+   "sample": "Stop Planning, Start Anticipating",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(254, 252, 247)",
+   "transform": "none",
+   "y": 2680,
+   "sample": "Ready to experience what travel planning should fe",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 3145,
+   "sample": "Corporate Travel",
+   "count": 7
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 3374,
+   "sample": "(832) 320-1285",
+   "count": 2
+  },
+  {
+   "tag": "H3",
+   "font": "DM Sans",
+   "size": "28px",
+   "weight": "600",
+   "lh": "33.6px",
+   "tracking": "0.28px",
+   "color": "rgb(255, 255, 255)",
+   "transform": "none",
+   "y": 3508,
+   "sample": "Follow Us on Social Media",
+   "count": 1
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(214, 54, 99)",
+   "transform": "none",
+   "y": 3554,
+   "sample": "Travelmation.net",
+   "count": 1
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 3706,
+   "sample": "Site Developed by DigitalNova Studios",
+   "count": 3
+  }
+ ],
+ "colors": [
+  [
+   "rgb(0, 0, 0)",
+   122
+  ],
+  [
+   "rgb(0, 0, 238)",
+   107
+  ],
+  [
+   "rgb(255, 255, 255)",
+   22
+  ],
+  [
+   "rgb(224, 224, 224)",
+   17
+  ],
+  [
+   "rgb(214, 54, 99)",
+   10
+  ],
+  [
+   "rgb(254, 252, 247)",
+   6
+  ],
+  [
+   "rgb(83, 83, 83)",
+   2
+  ],
+  [
+   "rgb(58, 58, 58)",
+   1
+  ]
+ ],
+ "backgrounds": [
+  [
+   "rgba(255, 255, 255, 0)",
+   10
+  ],
+  [
+   "rgb(0, 0, 0)",
+   8
+  ],
+  [
+   "rgb(255, 255, 255)",
+   6
+  ],
+  [
+   "rgb(214, 54, 99)",
+   5
+  ],
+  [
+   "rgb(133, 132, 129)",
+   2
+  ],
+  [
+   "rgb(15, 15, 15)",
+   1
+  ],
+  [
+   "rgba(0, 0, 0, 0.2)",
+   1
+  ],
+  [
+   "rgba(0, 0, 0, 0.6)",
+   1
+  ],
+  [
+   "rgb(38, 38, 38)",
+   1
+  ]
+ ],
+ "bgImages": [],
+ "media": [
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/Q1PtFhbSEf2pZiQFLdG003atrs.png",
+   "alt": "Miles & Memories White Logo",
+   "w": 140,
+   "h": 40,
+   "y": 30,
+   "natural": "1187x436",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/XOle9a1dmJuWvjutHzKR8253Q.png",
+   "alt": "",
+   "w": 101,
+   "h": 40,
+   "y": 30,
+   "natural": "100x39",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/hvwl5Mg4vV6b9v5cX5PKz955VHg.jpg",
+   "alt": "Beautiful secluded beach",
+   "w": 1440,
+   "h": 899,
+   "y": 0,
+   "natural": "1440x1080",
+   "objectFit": "cover",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/PjU4MZq5t8NktYcSKOgY24FZSI8.webp",
+   "alt": "Beautiful canal city with pink skies",
+   "w": 1440,
+   "h": 1000,
+   "y": 899,
+   "natural": "1440x900",
+   "objectFit": "cover",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/Txw6tAkBZDDHCrdOf5RoVmCsNQ.jpg",
+   "alt": "Cliffside city",
+   "w": 592,
+   "h": 329,
+   "y": 1210,
+   "natural": "592x394",
+   "objectFit": "cover",
+   "radius": "4px 4px 0px 0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/It6E5gFLdrtmN8Ivw245TpfUiLU.webp",
+   "alt": "Four people enjoying the sunset",
+   "w": 592,
+   "h": 329,
+   "y": 1210,
+   "natural": "766x462",
+   "objectFit": "cover",
+   "radius": "4px 4px 0px 0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/vkjTir2obgUDb7sklPS5F80mPAM.jpg",
+   "alt": "Family in the ocean enjoying the sun",
+   "w": 592,
+   "h": 329,
+   "y": 1786,
+   "natural": "592x394",
+   "objectFit": "cover",
+   "radius": "4px 4px 0px 0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/YcQhISOgDxh8PwJSClmyy6Kng.webp",
+   "alt": "Secluded oceanside pool",
+   "w": 592,
+   "h": 329,
+   "y": 1786,
+   "natural": "592x888",
+   "objectFit": "cover",
+   "radius": "4px 4px 0px 0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/fIEAfBsOHiF3BIZP4WMty55esTs.png",
+   "alt": "Miles & Memories White Logo Full",
+   "w": 340,
+   "h": 200,
+   "y": 3102,
+   "natural": "1187x739",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/aApXatHdl96qxTRZh76k5w2paA.png",
+   "alt": "travelmation logo",
+   "w": 348,
+   "h": 64,
+   "y": 3475,
+   "natural": "348x49",
+   "objectFit": "contain",
+   "radius": "0px"
+  }
+ ],
+ "fonts": [
+  "DM Sans 600 normal",
+  "Playfair Display 500 normal",
+  "Playfair Display 600 normal",
+  "DM Sans 500 normal",
+  "DM Sans 700 normal",
+  "DM Sans Placeholder normal normal",
+  "Playfair Display Placeholder normal normal"
+ ],
+ "links": [
+  "./",
+  "./about",
+  "./destinations",
+  "./travel-tips",
+  "./contact",
+  "./services/corporate-travel-planning",
+  "./services/greek-life-travel-planning",
+  "./services/friends-group-travel-planning",
+  "./services/luxury-travel-planning",
+  "tel:8323201285",
+  "mailto:mandygonzales@travelmation.net",
+  "https://www.instagram.com/themandygonzales?igsh=dXpyaTNyZzJmc2J0",
+  "https://www.facebook.com/share/16kMLiYD31/?mibextid=wwXIfr",
+  "https://www.linkedin.com/in/mandygonzales-travel",
+  "./booking",
+  "https://www.travelmation.net",
+  "https://www.digitalnovastudio.com",
+  "./privacy",
+  "./terms-and-conditions"
+ ],
+ "iframes": [
+  "https://framer.com/edit?framerSiteId=ef8f922bad53e8be1a143f2158fa60b8b63a07861acef84f5d79250404eba121&source=www.milesandmemories.net&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1789617946262"
+ ]
+}

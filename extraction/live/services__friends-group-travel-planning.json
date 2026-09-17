@@ -1,0 +1,588 @@
+{
+ "path": "/services/friends-group-travel-planning",
+ "status": 200,
+ "meta": {
+  "title": "Family & Group Travel Planning Services | Miles & Memories",
+  "description": "Expert family reunion and group travel planning. Multi-generational trips, anniversaries & friend getaways made stress-free with our complimentary service.",
+  "canonical": "https://www.milesandmemories.net/services/friends-group-travel-planning",
+  "ogImage": "https://framerusercontent.com/images/BnfjLxOZLtOQXGbz2DwzVty3Y5k.png",
+  "lang": "en",
+  "jsonLd": []
+ },
+ "height": 8917,
+ "type": [
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(255, 255, 255)",
+   "transform": "none",
+   "y": 35,
+   "sample": "Plan My Trip",
+   "count": 5
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "-0.7px",
+   "color": "rgb(255, 255, 255)",
+   "transform": "uppercase",
+   "y": 36,
+   "sample": "Travel Services",
+   "count": 6
+  },
+  {
+   "tag": "H1",
+   "font": "Playfair Display",
+   "size": "52px",
+   "weight": "600",
+   "lh": "62.4px",
+   "tracking": "1.04px",
+   "color": "rgb(254, 252, 247)",
+   "transform": "capitalize",
+   "y": 600,
+   "sample": "Family & Group Vacation Planning That Actually Bri",
+   "count": 1
+  },
+  {
+   "tag": "SPAN",
+   "font": "DM Sans",
+   "size": "22px",
+   "weight": "500",
+   "lh": "30.8px",
+   "tracking": "0.44px",
+   "color": "rgb(214, 54, 99)",
+   "transform": "none",
+   "y": 790,
+   "sample": "all for $0 in additional fees.",
+   "count": 3
+  },
+  {
+   "tag": "H2",
+   "font": "DM Sans",
+   "size": "32px",
+   "weight": "700",
+   "lh": "38.4px",
+   "tracking": "2.88px",
+   "color": "rgb(0, 0, 0)",
+   "transform": "uppercase",
+   "y": 1000,
+   "sample": "YOUR PARTNER IN MEMORY MAKING",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "Playfair Display",
+   "size": "22px",
+   "weight": "400",
+   "lh": "30.8px",
+   "tracking": "0.5px",
+   "color": "rgb(58, 58, 58)",
+   "transform": "capitalize",
+   "y": 1053,
+   "sample": "We Handle All Of The Details So You Can Focus On B",
+   "count": 1
+  },
+  {
+   "tag": "H2",
+   "font": "Playfair Display",
+   "size": "48px",
+   "weight": "500",
+   "lh": "57.6px",
+   "tracking": "normal",
+   "color": "rgb(0, 0, 0)",
+   "transform": "capitalize",
+   "y": 1286,
+   "sample": "Creating Your Perfect Group Getaway",
+   "count": 6
+  },
+  {
+   "tag": "H3",
+   "font": "DM Sans",
+   "size": "28px",
+   "weight": "600",
+   "lh": "33.6px",
+   "tracking": "0.28px",
+   "color": "rgb(58, 58, 58)",
+   "transform": "none",
+   "y": 1407,
+   "sample": "Theme Park Adventures",
+   "count": 9
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(83, 83, 83)",
+   "transform": "none",
+   "y": 1449,
+   "sample": "Disney & Universal experts who secure those imposs",
+   "count": 10
+  },
+  {
+   "tag": "SPAN",
+   "font": "DM Sans",
+   "size": "28px",
+   "weight": "600",
+   "lh": "33.6px",
+   "tracking": "0.28px",
+   "color": "rgb(214, 54, 99)",
+   "transform": "none",
+   "y": 2603,
+   "sample": "1.",
+   "count": 3
+  },
+  {
+   "tag": "H3",
+   "font": "DM Sans",
+   "size": "28px",
+   "weight": "600",
+   "lh": "33.6px",
+   "tracking": "0.28px",
+   "color": "rgb(38, 38, 38)",
+   "transform": "none",
+   "y": 2605,
+   "sample": "1. Personalized Itinerary",
+   "count": 3
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "normal",
+   "color": "rgb(83, 83, 83)",
+   "transform": "none",
+   "y": 2688,
+   "sample": "Detailed itineraries that account for nap times, d",
+   "count": 4
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "22px",
+   "weight": "500",
+   "lh": "30.8px",
+   "tracking": "0.44px",
+   "color": "rgb(58, 58, 58)",
+   "transform": "none",
+   "y": 5279,
+   "sample": "\"Mandy helped in every aspect in a group of 22 peo",
+   "count": 1
+  },
+  {
+   "tag": "H3",
+   "font": "DM Sans",
+   "size": "24px",
+   "weight": "600",
+   "lh": "28.8px",
+   "tracking": "0.24px",
+   "color": "rgb(0, 0, 0)",
+   "transform": "none",
+   "y": 6927,
+   "sample": "How does this process work if your services are fr",
+   "count": 3
+  },
+  {
+   "tag": "H2",
+   "font": "Playfair Display",
+   "size": "48px",
+   "weight": "500",
+   "lh": "57.6px",
+   "tracking": "normal",
+   "color": "rgb(255, 255, 255)",
+   "transform": "capitalize",
+   "y": 7574,
+   "sample": "Ready to Actually Enjoy Your Family Vacation?",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(254, 252, 247)",
+   "transform": "none",
+   "y": 7705,
+   "sample": "Tell us about your dream trip and we'll show you e",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 8250,
+   "sample": "Corporate Travel",
+   "count": 7
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 8479,
+   "sample": "(832) 320-1285",
+   "count": 2
+  },
+  {
+   "tag": "H3",
+   "font": "DM Sans",
+   "size": "28px",
+   "weight": "600",
+   "lh": "33.6px",
+   "tracking": "0.28px",
+   "color": "rgb(255, 255, 255)",
+   "transform": "none",
+   "y": 8613,
+   "sample": "Follow Us on Social Media",
+   "count": 1
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(214, 54, 99)",
+   "transform": "none",
+   "y": 8659,
+   "sample": "Travelmation.net",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 8775,
+   "sample": "Copyright © 2025 Miles & Memories. All Rights Rese",
+   "count": 1
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 8811,
+   "sample": "Site Developed by DigitalNova Studios",
+   "count": 3
+  }
+ ],
+ "colors": [
+  [
+   "rgb(0, 0, 0)",
+   289
+  ],
+  [
+   "rgb(0, 0, 238)",
+   89
+  ],
+  [
+   "rgb(255, 255, 255)",
+   20
+  ],
+  [
+   "rgb(214, 54, 99)",
+   17
+  ],
+  [
+   "rgb(83, 83, 83)",
+   16
+  ],
+  [
+   "rgb(224, 224, 224)",
+   14
+  ],
+  [
+   "rgb(58, 58, 58)",
+   11
+  ],
+  [
+   "rgb(254, 252, 247)",
+   5
+  ],
+  [
+   "rgb(38, 38, 38)",
+   3
+  ]
+ ],
+ "backgrounds": [
+  [
+   "rgb(214, 54, 99)",
+   14
+  ],
+  [
+   "rgb(255, 255, 255)",
+   13
+  ],
+  [
+   "rgba(255, 255, 255, 0)",
+   10
+  ],
+  [
+   "rgb(0, 0, 0)",
+   6
+  ],
+  [
+   "rgb(133, 132, 129)",
+   2
+  ],
+  [
+   "rgb(15, 15, 15)",
+   1
+  ],
+  [
+   "rgba(0, 0, 0, 0.2)",
+   1
+  ],
+  [
+   "rgb(224, 224, 224)",
+   1
+  ],
+  [
+   "rgba(0, 0, 0, 0.25)",
+   1
+  ],
+  [
+   "rgba(0, 0, 0, 0.5)",
+   1
+  ],
+  [
+   "rgb(38, 38, 38)",
+   1
+  ]
+ ],
+ "bgImages": [],
+ "media": [
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/Q1PtFhbSEf2pZiQFLdG003atrs.png",
+   "alt": "Miles & Memories White Logo",
+   "w": 140,
+   "h": 40,
+   "y": 30,
+   "natural": "1187x436",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/XOle9a1dmJuWvjutHzKR8253Q.png",
+   "alt": "",
+   "w": 101,
+   "h": 40,
+   "y": 30,
+   "natural": "100x39",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/F3Cd5z6fjAiK2p0q4PY185JHpdM.webp",
+   "alt": "Family on the beach",
+   "w": 1440,
+   "h": 900,
+   "y": 0,
+   "natural": "1440x960",
+   "objectFit": "cover",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/7QJGq02AZG8iJ58l7uRcsfMfb0.webp",
+   "alt": "Disney castle",
+   "w": 568,
+   "h": 706,
+   "y": 1407,
+   "natural": "568x710",
+   "objectFit": "cover",
+   "radius": "16px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/KvHpDJzVPgAddgiJb9p4N6g20eA.webp",
+   "alt": "Mother and child on the beach",
+   "w": 568,
+   "h": 503,
+   "y": 3222,
+   "natural": "568x795",
+   "objectFit": "cover",
+   "radius": "16px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/cwTwDsRyYu2bdVb76yRzThG78.webp",
+   "alt": "Man and child at ancient ruins",
+   "w": 600,
+   "h": 450,
+   "y": 4099,
+   "natural": "703x468",
+   "objectFit": "cover",
+   "radius": "16px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/vPcjPKh2yywfF9T2e5jHV2z5jCI.webp",
+   "alt": "Universal studios globe",
+   "w": 600,
+   "h": 450,
+   "y": 4629,
+   "natural": "700x468",
+   "objectFit": "cover",
+   "radius": "16px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/uznXKl33b5VYTtfQoFAGX0Pmi4.webp",
+   "alt": "Heahshot for Nick B.",
+   "w": 240,
+   "h": 240,
+   "y": 5338,
+   "natural": "281x281",
+   "objectFit": "cover",
+   "radius": "1000px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/BY8y3q50DteRg2HonapYkCz9pzQ.webp",
+   "alt": "Couple holding each other on a beach",
+   "w": 348,
+   "h": 320,
+   "y": 5945,
+   "natural": "407x407",
+   "objectFit": "cover",
+   "radius": "16px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/9G7VXxQrxAJWoKVo3Aj34PPytA.webp",
+   "alt": "Two girls playing on rocks in front of a lake view",
+   "w": 532,
+   "h": 320,
+   "y": 5945,
+   "natural": "532x709",
+   "objectFit": "cover",
+   "radius": "16px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/3D4vmJU81ym4OrNzcCvLlfcC0.webp",
+   "alt": "Man in front of beautiful mountains and the ocean",
+   "w": 532,
+   "h": 320,
+   "y": 6285,
+   "natural": "532x709",
+   "objectFit": "cover",
+   "radius": "16px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/uxZeIJXeoHnS5QRzierTRQoBWHo.webp",
+   "alt": "Little boy holds hands with disney princess",
+   "w": 348,
+   "h": 320,
+   "y": 6285,
+   "natural": "348x358",
+   "objectFit": "cover",
+   "radius": "16px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/jjzh6yXjExnropOd7NSEYFMgkTI.webp",
+   "alt": "disney castle distant view at night",
+   "w": 1440,
+   "h": 793,
+   "y": 7334,
+   "natural": "1440x753",
+   "objectFit": "cover",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/fIEAfBsOHiF3BIZP4WMty55esTs.png",
+   "alt": "Miles & Memories White Logo Full",
+   "w": 340,
+   "h": 200,
+   "y": 8207,
+   "natural": "1187x739",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/aApXatHdl96qxTRZh76k5w2paA.png",
+   "alt": "travelmation logo",
+   "w": 348,
+   "h": 64,
+   "y": 8580,
+   "natural": "348x49",
+   "objectFit": "contain",
+   "radius": "0px"
+  }
+ ],
+ "fonts": [
+  "DM Sans 600 normal",
+  "Playfair Display 400 normal",
+  "Playfair Display 500 normal",
+  "Playfair Display 600 normal",
+  "DM Sans 500 normal",
+  "DM Sans 700 normal",
+  "DM Sans 500 italic",
+  "DM Sans Placeholder normal normal",
+  "Playfair Display Placeholder normal normal"
+ ],
+ "links": [
+  "../",
+  "../about",
+  "../destinations",
+  "../travel-tips",
+  "../contact",
+  "tel:8323201285",
+  "mailto:mandygonzales@travelmation.net",
+  "https://www.instagram.com/themandygonzales?igsh=dXpyaTNyZzJmc2J0",
+  "https://www.facebook.com/share/16kMLiYD31/?mibextid=wwXIfr",
+  "https://www.linkedin.com/in/mandygonzales-travel",
+  "./corporate-travel-planning",
+  "./friends-group-travel-planning",
+  "./greek-life-travel-planning",
+  "./luxury-travel-planning",
+  "../booking",
+  "https://www.travelmation.net",
+  "https://www.digitalnovastudio.com",
+  "../privacy",
+  "../terms-and-conditions"
+ ],
+ "iframes": [
+  "https://framer.com/edit?framerSiteId=ef8f922bad53e8be1a143f2158fa60b8b63a07861acef84f5d79250404eba121&source=www.milesandmemories.net&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1789618018320"
+ ]
+}

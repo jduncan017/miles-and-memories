@@ -1,0 +1,173 @@
+{
+ "path": "/booking",
+ "status": 200,
+ "meta": {
+  "title": "Miles & Memories - Travelmation | Stress-Free Travel Planning",
+  "description": "Expert travel planning for corporate events, Greek life trips, family getaways & luxury vacations. Complimentary service with no hidden fees. Free consultation today.",
+  "canonical": "https://www.milesandmemories.net/booking",
+  "ogImage": "https://framerusercontent.com/images/BnfjLxOZLtOQXGbz2DwzVty3Y5k.png",
+  "lang": "en",
+  "jsonLd": []
+ },
+ "height": 1115,
+ "type": [
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(255, 255, 255)",
+   "transform": "none",
+   "y": 35,
+   "sample": "Plan My Trip",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "-0.7px",
+   "color": "rgb(255, 255, 255)",
+   "transform": "uppercase",
+   "y": 36,
+   "sample": "Travel Services",
+   "count": 4
+  },
+  {
+   "tag": "H2",
+   "font": "Playfair Display",
+   "size": "48px",
+   "weight": "500",
+   "lh": "57.6px",
+   "tracking": "normal",
+   "color": "rgb(13, 13, 13)",
+   "transform": "capitalize",
+   "y": 217,
+   "sample": "Book Your Free Consultation",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 1029,
+   "sample": "Copyright © 2025 Miles & Memories. All Rights Rese",
+   "count": 1
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 1065,
+   "sample": "Site Developed by DigitalNova Studios",
+   "count": 3
+  }
+ ],
+ "colors": [
+  [
+   "rgb(0, 0, 0)",
+   41
+  ],
+  [
+   "rgb(0, 0, 238)",
+   23
+  ],
+  [
+   "rgb(255, 255, 255)",
+   6
+  ],
+  [
+   "rgb(224, 224, 224)",
+   4
+  ],
+  [
+   "rgb(83, 83, 83)",
+   2
+  ],
+  [
+   "rgb(13, 13, 13)",
+   1
+  ]
+ ],
+ "backgrounds": [
+  [
+   "rgb(0, 0, 0)",
+   3
+  ],
+  [
+   "rgb(255, 255, 255)",
+   3
+  ],
+  [
+   "rgba(255, 255, 255, 0)",
+   3
+  ],
+  [
+   "rgb(214, 54, 99)",
+   1
+  ],
+  [
+   "rgb(38, 38, 38)",
+   1
+  ]
+ ],
+ "bgImages": [],
+ "media": [
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/Q1PtFhbSEf2pZiQFLdG003atrs.png",
+   "alt": "Miles & Memories White Logo",
+   "w": 140,
+   "h": 40,
+   "y": 30,
+   "natural": "1187x436",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/XOle9a1dmJuWvjutHzKR8253Q.png",
+   "alt": "",
+   "w": 101,
+   "h": 40,
+   "y": 30,
+   "natural": "100x39",
+   "objectFit": "contain",
+   "radius": "0px"
+  }
+ ],
+ "fonts": [
+  "Playfair Display 500 normal",
+  "DM Sans 500 normal",
+  "DM Sans Placeholder normal normal",
+  "Playfair Display Placeholder normal normal"
+ ],
+ "links": [
+  "./",
+  "./about",
+  "./destinations",
+  "./travel-tips",
+  "./contact",
+  "https://www.digitalnovastudio.com",
+  "./privacy",
+  "./terms-and-conditions"
+ ],
+ "iframes": [
+  "",
+  "https://framer.com/edit?framerSiteId=ef8f922bad53e8be1a143f2158fa60b8b63a07861acef84f5d79250404eba121&source=www.milesandmemories.net&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1789618165784"
+ ]
+}

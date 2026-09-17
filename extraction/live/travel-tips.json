@@ -1,0 +1,396 @@
+{
+ "path": "/travel-tips",
+ "status": 200,
+ "meta": {
+  "title": "Miles & Memories - Travelmation | Stress-Free Travel Planning",
+  "description": "Expert travel planning for corporate events, Greek life trips, family getaways & luxury vacations. Complimentary service with no hidden fees. Free consultation today.",
+  "canonical": "https://www.milesandmemories.net/travel-tips",
+  "ogImage": "https://framerusercontent.com/images/BnfjLxOZLtOQXGbz2DwzVty3Y5k.png",
+  "lang": "en",
+  "jsonLd": []
+ },
+ "height": 2625,
+ "type": [
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(255, 255, 255)",
+   "transform": "none",
+   "y": 35,
+   "sample": "Plan My Trip",
+   "count": 2
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "-0.7px",
+   "color": "rgb(255, 255, 255)",
+   "transform": "uppercase",
+   "y": 36,
+   "sample": "Travel Services",
+   "count": 6
+  },
+  {
+   "tag": "H1",
+   "font": "Playfair Display",
+   "size": "52px",
+   "weight": "600",
+   "lh": "62.4px",
+   "tracking": "1.04px",
+   "color": "rgb(254, 252, 247)",
+   "transform": "capitalize",
+   "y": 520,
+   "sample": "Travel Tips",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "22px",
+   "weight": "500",
+   "lh": "30.8px",
+   "tracking": "0.44px",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 616,
+   "sample": "Insider tips that turn first-time travelers into c",
+   "count": 1
+  },
+  {
+   "tag": "H2",
+   "font": "Playfair Display",
+   "size": "48px",
+   "weight": "500",
+   "lh": "57.6px",
+   "tracking": "normal",
+   "color": "rgb(13, 13, 13)",
+   "transform": "capitalize",
+   "y": 838,
+   "sample": "Latest Articles",
+   "count": 1
+  },
+  {
+   "tag": "H4",
+   "font": "DM Sans",
+   "size": "24px",
+   "weight": "700",
+   "lh": "28.8px",
+   "tracking": "normal",
+   "color": "rgb(255, 255, 255)",
+   "transform": "capitalize",
+   "y": 1235,
+   "sample": "Isla Holbox Won Me Over (Whale Shark Seasickness a",
+   "count": 4
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "normal",
+   "color": "rgb(133, 132, 129)",
+   "transform": "none",
+   "y": 1293,
+   "sample": "View More",
+   "count": 4
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 1959,
+   "sample": "Corporate Travel",
+   "count": 7
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 2188,
+   "sample": "(832) 320-1285",
+   "count": 2
+  },
+  {
+   "tag": "H3",
+   "font": "DM Sans",
+   "size": "28px",
+   "weight": "600",
+   "lh": "33.6px",
+   "tracking": "0.28px",
+   "color": "rgb(255, 255, 255)",
+   "transform": "none",
+   "y": 2322,
+   "sample": "Follow Us on Social Media",
+   "count": 1
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(214, 54, 99)",
+   "transform": "none",
+   "y": 2368,
+   "sample": "Travelmation.net",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 2483,
+   "sample": "Copyright © 2025 Miles & Memories. All Rights Rese",
+   "count": 1
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 2519,
+   "sample": "Site Developed by DigitalNova Studios",
+   "count": 3
+  }
+ ],
+ "colors": [
+  [
+   "rgb(0, 0, 238)",
+   102
+  ],
+  [
+   "rgb(0, 0, 0)",
+   99
+  ],
+  [
+   "rgb(255, 255, 255)",
+   20
+  ],
+  [
+   "rgb(224, 224, 224)",
+   14
+  ],
+  [
+   "rgb(254, 252, 247)",
+   4
+  ],
+  [
+   "rgb(133, 132, 129)",
+   4
+  ],
+  [
+   "rgb(83, 83, 83)",
+   2
+  ],
+  [
+   "rgb(13, 13, 13)",
+   1
+  ],
+  [
+   "rgb(214, 54, 99)",
+   1
+  ]
+ ],
+ "backgrounds": [
+  [
+   "rgba(255, 255, 255, 0)",
+   10
+  ],
+  [
+   "rgb(255, 255, 255)",
+   4
+  ],
+  [
+   "rgb(214, 54, 99)",
+   4
+  ],
+  [
+   "rgb(0, 0, 0)",
+   3
+  ],
+  [
+   "rgb(15, 15, 15)",
+   2
+  ],
+  [
+   "rgb(133, 132, 129)",
+   2
+  ],
+  [
+   "rgba(0, 0, 0, 0.2)",
+   1
+  ],
+  [
+   "rgb(38, 38, 38)",
+   1
+  ]
+ ],
+ "bgImages": [],
+ "media": [
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/Q1PtFhbSEf2pZiQFLdG003atrs.png",
+   "alt": "Miles & Memories White Logo",
+   "w": 140,
+   "h": 40,
+   "y": 30,
+   "natural": "1187x436",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/XOle9a1dmJuWvjutHzKR8253Q.png",
+   "alt": "",
+   "w": 101,
+   "h": 40,
+   "y": 30,
+   "natural": "100x39",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/dw5CoqMfAqL6bhrif9lcclEvW4.webp",
+   "alt": "A beauytiful beach with a white stone landscape",
+   "w": 1440,
+   "h": 758,
+   "y": 0,
+   "natural": "1440x960",
+   "objectFit": "cover",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/N2kv6VuSFMT2GAtNP5OSuClT0Z0.jpg",
+   "alt": "Mandy Gonzolaes smiling and getting ready to swim with whale sharks",
+   "w": 413,
+   "h": 400,
+   "y": 936,
+   "natural": "1439x1029",
+   "objectFit": "cover",
+   "radius": "4px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/xNs5AA9vV6AWMza2Q1UQMqg.webp",
+   "alt": "",
+   "w": 413,
+   "h": 400,
+   "y": 936,
+   "natural": "1439x810",
+   "objectFit": "cover",
+   "radius": "4px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/pPgphE7evRuxF3YmK2LDYXE9Asw.webp",
+   "alt": "Los Tucanes restaruant in Costa Rica",
+   "w": 413,
+   "h": 400,
+   "y": 936,
+   "natural": "1440x988",
+   "objectFit": "cover",
+   "radius": "4px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/4u8EB9q7inTHki7E5pIfWW04A.webp",
+   "alt": "Beachfront town in Belize",
+   "w": 413,
+   "h": 400,
+   "y": 1356,
+   "natural": "1440x960",
+   "objectFit": "cover",
+   "radius": "4px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/fIEAfBsOHiF3BIZP4WMty55esTs.png",
+   "alt": "Miles & Memories White Logo Full",
+   "w": 340,
+   "h": 200,
+   "y": 1916,
+   "natural": "1187x739",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/aApXatHdl96qxTRZh76k5w2paA.png",
+   "alt": "travelmation logo",
+   "w": 348,
+   "h": 64,
+   "y": 2288,
+   "natural": "348x49",
+   "objectFit": "contain",
+   "radius": "0px"
+  }
+ ],
+ "fonts": [
+  "DM Sans 600 normal",
+  "Playfair Display 500 normal",
+  "Playfair Display 600 normal",
+  "DM Sans 500 normal",
+  "DM Sans 700 normal",
+  "DM Sans 500 italic",
+  "DM Sans Placeholder normal normal",
+  "Playfair Display Placeholder normal normal"
+ ],
+ "links": [
+  "./",
+  "./about",
+  "./destinations",
+  "./travel-tips",
+  "./contact",
+  "./travel-tips/isla-holbox-won-me-over-(whale-shark-seasickness-and-all)",
+  "./travel-tips/how-i-managed-the-biggest-spring-break-trip-of-my-career",
+  "./travel-tips/50-people-3-days-zero-burnout-our-costa-rica-incentive-trip",
+  "./travel-tips/i-spent-5-days-in-belize-and-got-two-completely-different-vacations",
+  "tel:8323201285",
+  "mailto:mandygonzales@travelmation.net",
+  "https://www.instagram.com/themandygonzales?igsh=dXpyaTNyZzJmc2J0",
+  "https://www.facebook.com/share/16kMLiYD31/?mibextid=wwXIfr",
+  "https://www.linkedin.com/in/mandygonzales-travel",
+  "./services/corporate-travel-planning",
+  "./services/friends-group-travel-planning",
+  "./services/greek-life-travel-planning",
+  "./services/luxury-travel-planning",
+  "./booking",
+  "https://www.travelmation.net",
+  "https://www.digitalnovastudio.com",
+  "./privacy",
+  "./terms-and-conditions"
+ ],
+ "iframes": [
+  "https://framer.com/edit?framerSiteId=ef8f922bad53e8be1a143f2158fa60b8b63a07861acef84f5d79250404eba121&source=www.milesandmemories.net&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1789618040128"
+ ]
+}

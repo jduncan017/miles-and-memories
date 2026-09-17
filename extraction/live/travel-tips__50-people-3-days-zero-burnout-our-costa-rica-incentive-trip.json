@@ -1,0 +1,394 @@
+{
+ "path": "/travel-tips/50-people-3-days-zero-burnout-our-costa-rica-incentive-trip",
+ "status": 200,
+ "meta": {
+  "title": "Costa Rica: 50 People, 3 Days, 0 Burnout | Miles & Memories",
+  "description": "How we planned a 3-day corporate incentive trip to La Fortuna, Costa Rica, with volcano hikes, thermal springs at Tabacon Resort, and team building.",
+  "canonical": "https://www.milesandmemories.net/travel-tips/50-people-3-days-zero-burnout-our-costa-rica-incentive-trip",
+  "ogImage": "https://framerusercontent.com/images/pPgphE7evRuxF3YmK2LDYXE9Asw.webp?width=1280&height=879",
+  "lang": "en",
+  "jsonLd": []
+ },
+ "height": 7058,
+ "type": [
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(255, 255, 255)",
+   "transform": "none",
+   "y": 35,
+   "sample": "Plan My Trip",
+   "count": 3
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "-0.7px",
+   "color": "rgb(255, 255, 255)",
+   "transform": "uppercase",
+   "y": 36,
+   "sample": "Travel Services",
+   "count": 6
+  },
+  {
+   "tag": "H1",
+   "font": "Playfair Display",
+   "size": "52px",
+   "weight": "600",
+   "lh": "62.4px",
+   "tracking": "1.04px",
+   "color": "rgb(0, 0, 0)",
+   "transform": "capitalize",
+   "y": 780,
+   "sample": "50 People, 3 Days, Zero Burnout: Our Costa Rica In",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(83, 83, 83)",
+   "transform": "none",
+   "y": 991,
+   "sample": "8",
+   "count": 5
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(58, 58, 58)",
+   "transform": "none",
+   "y": 1085,
+   "sample": "I've planned a lot of incentive trips. Cruises, al",
+   "count": 23
+  },
+  {
+   "tag": "H3",
+   "font": "DM Sans",
+   "size": "28px",
+   "weight": "600",
+   "lh": "33.6px",
+   "tracking": "0.28px",
+   "color": "rgb(38, 38, 38)",
+   "transform": "none",
+   "y": 1667,
+   "sample": "The Destination",
+   "count": 6
+  },
+  {
+   "tag": "H2",
+   "font": "Playfair Display",
+   "size": "32px",
+   "weight": "400",
+   "lh": "44.8px",
+   "tracking": "0.5px",
+   "color": "rgb(0, 0, 0)",
+   "transform": "capitalize",
+   "y": 5300,
+   "sample": "Want the Complete Planning Guide?",
+   "count": 1
+  },
+  {
+   "tag": "H2",
+   "font": "Playfair Display",
+   "size": "48px",
+   "weight": "500",
+   "lh": "57.6px",
+   "tracking": "normal",
+   "color": "rgb(255, 255, 255)",
+   "transform": "capitalize",
+   "y": 5853,
+   "sample": "Want Us to Plan Your Next Incentive Trip?",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(254, 252, 247)",
+   "transform": "none",
+   "y": 5926,
+   "sample": "I've done the scouting, negotiated the rates, and ",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 6391,
+   "sample": "Corporate Travel",
+   "count": 7
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 6620,
+   "sample": "(832) 320-1285",
+   "count": 2
+  },
+  {
+   "tag": "H3",
+   "font": "DM Sans",
+   "size": "28px",
+   "weight": "600",
+   "lh": "33.6px",
+   "tracking": "0.28px",
+   "color": "rgb(255, 255, 255)",
+   "transform": "none",
+   "y": 6754,
+   "sample": "Follow Us on Social Media",
+   "count": 1
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(214, 54, 99)",
+   "transform": "none",
+   "y": 6800,
+   "sample": "Travelmation.net",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 6916,
+   "sample": "Copyright © 2025 Miles & Memories. All Rights Rese",
+   "count": 1
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 6952,
+   "sample": "Site Developed by DigitalNova Studios",
+   "count": 3
+  }
+ ],
+ "colors": [
+  [
+   "rgb(0, 0, 0)",
+   103
+  ],
+  [
+   "rgb(0, 0, 238)",
+   79
+  ],
+  [
+   "rgb(58, 58, 58)",
+   38
+  ],
+  [
+   "rgb(255, 255, 255)",
+   18
+  ],
+  [
+   "rgb(224, 224, 224)",
+   13
+  ],
+  [
+   "rgb(83, 83, 83)",
+   9
+  ],
+  [
+   "rgb(38, 38, 38)",
+   6
+  ],
+  [
+   "rgb(254, 252, 247)",
+   4
+  ],
+  [
+   "rgb(214, 54, 99)",
+   1
+  ]
+ ],
+ "backgrounds": [
+  [
+   "rgba(255, 255, 255, 0)",
+   10
+  ],
+  [
+   "rgb(255, 255, 255)",
+   7
+  ],
+  [
+   "rgb(214, 54, 99)",
+   5
+  ],
+  [
+   "rgb(0, 0, 0)",
+   4
+  ],
+  [
+   "rgb(133, 132, 129)",
+   3
+  ],
+  [
+   "rgb(15, 15, 15)",
+   1
+  ],
+  [
+   "rgb(246, 241, 228)",
+   1
+  ],
+  [
+   "rgb(224, 224, 224)",
+   1
+  ],
+  [
+   "rgba(0, 0, 0, 0.6)",
+   1
+  ],
+  [
+   "rgb(38, 38, 38)",
+   1
+  ]
+ ],
+ "bgImages": [],
+ "media": [
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/Q1PtFhbSEf2pZiQFLdG003atrs.png",
+   "alt": "Miles & Memories White Logo",
+   "w": 140,
+   "h": 40,
+   "y": 30,
+   "natural": "1187x436",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/XOle9a1dmJuWvjutHzKR8253Q.png",
+   "alt": "",
+   "w": 101,
+   "h": 40,
+   "y": 30,
+   "natural": "100x39",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/pPgphE7evRuxF3YmK2LDYXE9Asw.webp",
+   "alt": "Los Tucanes restaruant in Costa Rica",
+   "w": 880,
+   "h": 520,
+   "y": 220,
+   "natural": "880x604",
+   "objectFit": "cover",
+   "radius": "16px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/v92794PSv50FHEftmoltxlMxhJA.webp",
+   "alt": "Tucan sitting on a branch",
+   "w": 1440,
+   "h": 576,
+   "y": 5693,
+   "natural": "1440x985",
+   "objectFit": "cover",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/fIEAfBsOHiF3BIZP4WMty55esTs.png",
+   "alt": "Miles & Memories White Logo Full",
+   "w": 340,
+   "h": 200,
+   "y": 6348,
+   "natural": "1187x739",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/aApXatHdl96qxTRZh76k5w2paA.png",
+   "alt": "travelmation logo",
+   "w": 348,
+   "h": 64,
+   "y": 6721,
+   "natural": "348x49",
+   "objectFit": "contain",
+   "radius": "0px"
+  }
+ ],
+ "fonts": [
+  "DM Sans 600 normal",
+  "Playfair Display 400 normal",
+  "Playfair Display 500 normal",
+  "Playfair Display 600 normal",
+  "DM Sans 500 normal",
+  "DM Sans 700 normal",
+  "DM Sans 500 italic",
+  "DM Sans Placeholder normal normal",
+  "Playfair Display Placeholder normal normal"
+ ],
+ "links": [
+  "../",
+  "../about",
+  "../destinations",
+  "../travel-tips",
+  "../contact",
+  "tel:8323201285",
+  "mailto:mandygonzales@travelmation.net",
+  "https://www.instagram.com/themandygonzales?igsh=dXpyaTNyZzJmc2J0",
+  "https://www.facebook.com/share/16kMLiYD31/?mibextid=wwXIfr",
+  "https://www.linkedin.com/in/mandygonzales-travel",
+  "../services/corporate-travel-planning",
+  "../services/friends-group-travel-planning",
+  "../services/greek-life-travel-planning",
+  "../services/luxury-travel-planning",
+  "../booking",
+  "https://www.travelmation.net",
+  "https://www.digitalnovastudio.com",
+  "../privacy",
+  "../terms-and-conditions"
+ ],
+ "iframes": [
+  "https://framer.com/edit?framerSiteId=ef8f922bad53e8be1a143f2158fa60b8b63a07861acef84f5d79250404eba121&source=www.milesandmemories.net&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1789618134356"
+ ]
+}

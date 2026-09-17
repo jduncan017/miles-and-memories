@@ -1,0 +1,589 @@
+{
+ "path": "/services/greek-life-travel-planning",
+ "status": 200,
+ "meta": {
+  "title": "Greek Life Travel Planning | Formals, Retreats & Events | Miles & Memories",
+  "description": "Specialized Greek life travel planning for formals, retreats, and chapter events. Complimentary service that handles every detail for unforgettable group experiences.",
+  "canonical": "https://www.milesandmemories.net/services/greek-life-travel-planning",
+  "ogImage": "https://framerusercontent.com/images/BnfjLxOZLtOQXGbz2DwzVty3Y5k.png",
+  "lang": "en",
+  "jsonLd": []
+ },
+ "height": 8561,
+ "type": [
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(255, 255, 255)",
+   "transform": "none",
+   "y": 35,
+   "sample": "Plan My Trip",
+   "count": 5
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "-0.7px",
+   "color": "rgb(255, 255, 255)",
+   "transform": "uppercase",
+   "y": 36,
+   "sample": "Travel Services",
+   "count": 6
+  },
+  {
+   "tag": "H1",
+   "font": "Playfair Display",
+   "size": "52px",
+   "weight": "600",
+   "lh": "62.4px",
+   "tracking": "1.04px",
+   "color": "rgb(254, 252, 247)",
+   "transform": "capitalize",
+   "y": 600,
+   "sample": "Stress-Free Travel for Fraternity & Sorority Event",
+   "count": 1
+  },
+  {
+   "tag": "SPAN",
+   "font": "DM Sans",
+   "size": "22px",
+   "weight": "500",
+   "lh": "30.8px",
+   "tracking": "0.44px",
+   "color": "rgb(214, 54, 99)",
+   "transform": "none",
+   "y": 790,
+   "sample": "Zero fees, zero headaches.",
+   "count": 3
+  },
+  {
+   "tag": "H2",
+   "font": "DM Sans",
+   "size": "32px",
+   "weight": "700",
+   "lh": "38.4px",
+   "tracking": "2.88px",
+   "color": "rgb(0, 0, 0)",
+   "transform": "uppercase",
+   "y": 1000,
+   "sample": "YOUR SECRET WEAPON FOR FLAWLESS EVENTS",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "Playfair Display",
+   "size": "22px",
+   "weight": "400",
+   "lh": "30.8px",
+   "tracking": "0.5px",
+   "color": "rgb(58, 58, 58)",
+   "transform": "capitalize",
+   "y": 1053,
+   "sample": "We Handle All The Details So You And Your Chapter ",
+   "count": 1
+  },
+  {
+   "tag": "H2",
+   "font": "Playfair Display",
+   "size": "48px",
+   "weight": "500",
+   "lh": "57.6px",
+   "tracking": "normal",
+   "color": "rgb(0, 0, 0)",
+   "transform": "capitalize",
+   "y": 1316,
+   "sample": "What We Plan for Greek Life",
+   "count": 6
+  },
+  {
+   "tag": "H3",
+   "font": "DM Sans",
+   "size": "28px",
+   "weight": "600",
+   "lh": "33.6px",
+   "tracking": "0.28px",
+   "color": "rgb(58, 58, 58)",
+   "transform": "none",
+   "y": 1438,
+   "sample": "Chapter Formals & Semis",
+   "count": 8
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(83, 83, 83)",
+   "transform": "none",
+   "y": 1480,
+   "sample": "From Nashville to New Orleans, we plan unforgettab",
+   "count": 10
+  },
+  {
+   "tag": "SPAN",
+   "font": "DM Sans",
+   "size": "28px",
+   "weight": "600",
+   "lh": "33.6px",
+   "tracking": "0.28px",
+   "color": "rgb(214, 54, 99)",
+   "transform": "none",
+   "y": 2396,
+   "sample": "1.",
+   "count": 3
+  },
+  {
+   "tag": "H3",
+   "font": "DM Sans",
+   "size": "28px",
+   "weight": "600",
+   "lh": "33.6px",
+   "tracking": "0.28px",
+   "color": "rgb(38, 38, 38)",
+   "transform": "none",
+   "y": 2398,
+   "sample": "1. Individual Invoicing & Plans",
+   "count": 3
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "normal",
+   "color": "rgb(83, 83, 83)",
+   "transform": "none",
+   "y": 2481,
+   "sample": "No more chasing down money. Members get personaliz",
+   "count": 4
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "22px",
+   "weight": "500",
+   "lh": "30.8px",
+   "tracking": "0.44px",
+   "color": "rgb(58, 58, 58)",
+   "transform": "none",
+   "y": 5012,
+   "sample": "“Mandy was absolutely incredible to work with for ",
+   "count": 1
+  },
+  {
+   "tag": "H3",
+   "font": "DM Sans",
+   "size": "24px",
+   "weight": "600",
+   "lh": "28.8px",
+   "tracking": "0.24px",
+   "color": "rgb(0, 0, 0)",
+   "transform": "none",
+   "y": 6630,
+   "sample": "How do we make a trip affordable for our whole cha",
+   "count": 3
+  },
+  {
+   "tag": "H2",
+   "font": "Playfair Display",
+   "size": "48px",
+   "weight": "500",
+   "lh": "57.6px",
+   "tracking": "normal",
+   "color": "rgb(255, 255, 255)",
+   "transform": "capitalize",
+   "y": 7248,
+   "sample": "Ready to Plan Your Chapter's Most Legendary Trip Y",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(254, 252, 247)",
+   "transform": "none",
+   "y": 7379,
+   "sample": "Tell us your vision—formal, spring break, or custo",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 7894,
+   "sample": "Corporate Travel",
+   "count": 7
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 8123,
+   "sample": "(832) 320-1285",
+   "count": 2
+  },
+  {
+   "tag": "H3",
+   "font": "DM Sans",
+   "size": "28px",
+   "weight": "600",
+   "lh": "33.6px",
+   "tracking": "0.28px",
+   "color": "rgb(255, 255, 255)",
+   "transform": "none",
+   "y": 8257,
+   "sample": "Follow Us on Social Media",
+   "count": 1
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "20px",
+   "weight": "500",
+   "lh": "30px",
+   "tracking": "normal",
+   "color": "rgb(214, 54, 99)",
+   "transform": "none",
+   "y": 8304,
+   "sample": "Travelmation.net",
+   "count": 1
+  },
+  {
+   "tag": "P",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 8419,
+   "sample": "Copyright © 2025 Miles & Memories. All Rights Rese",
+   "count": 1
+  },
+  {
+   "tag": "A",
+   "font": "DM Sans",
+   "size": "18px",
+   "weight": "500",
+   "lh": "27px",
+   "tracking": "normal",
+   "color": "rgb(224, 224, 224)",
+   "transform": "none",
+   "y": 8455,
+   "sample": "Site Developed by DigitalNova Studios",
+   "count": 3
+  }
+ ],
+ "colors": [
+  [
+   "rgb(0, 0, 0)",
+   282
+  ],
+  [
+   "rgb(0, 0, 238)",
+   89
+  ],
+  [
+   "rgb(214, 54, 99)",
+   23
+  ],
+  [
+   "rgb(255, 255, 255)",
+   20
+  ],
+  [
+   "rgb(83, 83, 83)",
+   16
+  ],
+  [
+   "rgb(224, 224, 224)",
+   14
+  ],
+  [
+   "rgb(58, 58, 58)",
+   12
+  ],
+  [
+   "rgb(254, 252, 247)",
+   5
+  ],
+  [
+   "rgb(38, 38, 38)",
+   3
+  ]
+ ],
+ "backgrounds": [
+  [
+   "rgb(255, 255, 255)",
+   13
+  ],
+  [
+   "rgb(214, 54, 99)",
+   13
+  ],
+  [
+   "rgba(255, 255, 255, 0)",
+   10
+  ],
+  [
+   "rgb(0, 0, 0)",
+   6
+  ],
+  [
+   "rgb(133, 132, 129)",
+   2
+  ],
+  [
+   "rgb(15, 15, 15)",
+   1
+  ],
+  [
+   "rgba(0, 0, 0, 0.2)",
+   1
+  ],
+  [
+   "rgb(224, 224, 224)",
+   1
+  ],
+  [
+   "rgba(0, 0, 0, 0.25)",
+   1
+  ],
+  [
+   "rgba(0, 0, 0, 0.5)",
+   1
+  ],
+  [
+   "rgb(38, 38, 38)",
+   1
+  ]
+ ],
+ "bgImages": [],
+ "media": [
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/Q1PtFhbSEf2pZiQFLdG003atrs.png",
+   "alt": "Miles & Memories White Logo",
+   "w": 140,
+   "h": 40,
+   "y": 30,
+   "natural": "1187x436",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/XOle9a1dmJuWvjutHzKR8253Q.png",
+   "alt": "",
+   "w": 101,
+   "h": 40,
+   "y": 30,
+   "natural": "100x39",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/IkgtbFWv4PT2t55g0RGfvPRZkwk.webp",
+   "alt": "Co-ed greek life group photo in the caribbean",
+   "w": 1440,
+   "h": 900,
+   "y": 0,
+   "natural": "1440x960",
+   "objectFit": "cover",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/XS7sUkVk2fTWwCLAA7lqySPsyCU.webp",
+   "alt": "Top-down view of tropical beach",
+   "w": 568,
+   "h": 526,
+   "y": 1438,
+   "natural": "568x710",
+   "objectFit": "cover",
+   "radius": "16px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/XaCU5XIbt4H1bIiOnntX4nOw.webp",
+   "alt": "People getting onto a yellow bus",
+   "w": 568,
+   "h": 443,
+   "y": 3015,
+   "natural": "568x852",
+   "objectFit": "cover",
+   "radius": "16px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/Lje9E7XwIELzLyNogbz3ZynC5Vg.webp",
+   "alt": "Group of people holding eachother on the edge of a dock",
+   "w": 600,
+   "h": 450,
+   "y": 3832,
+   "natural": "599x337",
+   "objectFit": "cover",
+   "radius": "16px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/jwvhH0NmH7NK1Eodzlv9XMRME.webp",
+   "alt": "Silouettes of people jumping in the air at sunrise",
+   "w": 600,
+   "h": 450,
+   "y": 4362,
+   "natural": "599x337",
+   "objectFit": "cover",
+   "radius": "16px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/Zq5ikezsE9tqBKQpLug0VkqYg.webp",
+   "alt": "Nicole W headshot",
+   "w": 240,
+   "h": 240,
+   "y": 5071,
+   "natural": "281x281",
+   "objectFit": "cover",
+   "radius": "1000px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/Wb8nZaVkJZKDwy7nY8Td4pPfIE.webp",
+   "alt": "2 sorority girls with cocktails on a breach",
+   "w": 348,
+   "h": 320,
+   "y": 5648,
+   "natural": "348x464",
+   "objectFit": "cover",
+   "radius": "16px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/iTqjzwgQNZr68guWTbOFEjLoQPA.webp",
+   "alt": "Fraternity group photo in fancy hotel",
+   "w": 532,
+   "h": 320,
+   "y": 5648,
+   "natural": "532x354",
+   "objectFit": "cover",
+   "radius": "16px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/6mte2ZO9bZtgj4trlYQwQlzHU.webp",
+   "alt": "Sorority group photo on the beach",
+   "w": 532,
+   "h": 320,
+   "y": 5988,
+   "natural": "532x709",
+   "objectFit": "cover",
+   "radius": "16px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/pDrivvLNUqsAEsTPm0fROZKhTg.webp",
+   "alt": "Fraternity group photo on a dock",
+   "w": 348,
+   "h": 320,
+   "y": 5988,
+   "natural": "348x231",
+   "objectFit": "cover",
+   "radius": "16px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/ldRpRPG29SP6a40S1rxr73QONA.webp",
+   "alt": "Top-down view of luxury beachside hotel",
+   "w": 1440,
+   "h": 763,
+   "y": 7008,
+   "natural": "1440x1078",
+   "objectFit": "cover",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/fIEAfBsOHiF3BIZP4WMty55esTs.png",
+   "alt": "Miles & Memories White Logo Full",
+   "w": 340,
+   "h": 200,
+   "y": 7851,
+   "natural": "1187x739",
+   "objectFit": "contain",
+   "radius": "0px"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://framerusercontent.com/images/aApXatHdl96qxTRZh76k5w2paA.png",
+   "alt": "travelmation logo",
+   "w": 348,
+   "h": 64,
+   "y": 8224,
+   "natural": "348x49",
+   "objectFit": "contain",
+   "radius": "0px"
+  }
+ ],
+ "fonts": [
+  "DM Sans 600 normal",
+  "Playfair Display 400 normal",
+  "Playfair Display 500 normal",
+  "Playfair Display 600 normal",
+  "DM Sans 900 normal",
+  "DM Sans 500 normal",
+  "DM Sans 700 normal",
+  "DM Sans 500 italic",
+  "DM Sans Placeholder normal normal",
+  "Playfair Display Placeholder normal normal"
+ ],
+ "links": [
+  "../",
+  "../about",
+  "../destinations",
+  "../travel-tips",
+  "../contact",
+  "tel:8323201285",
+  "mailto:mandygonzales@travelmation.net",
+  "https://www.instagram.com/themandygonzales?igsh=dXpyaTNyZzJmc2J0",
+  "https://www.facebook.com/share/16kMLiYD31/?mibextid=wwXIfr",
+  "https://www.linkedin.com/in/mandygonzales-travel",
+  "./corporate-travel-planning",
+  "./friends-group-travel-planning",
+  "./greek-life-travel-planning",
+  "./luxury-travel-planning",
+  "../booking",
+  "https://www.travelmation.net",
+  "https://www.digitalnovastudio.com",
+  "../privacy",
+  "../terms-and-conditions"
+ ],
+ "iframes": [
+  "https://framer.com/edit?framerSiteId=ef8f922bad53e8be1a143f2158fa60b8b63a07861acef84f5d79250404eba121&source=www.milesandmemories.net&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1789618006796"
+ ]
+}
