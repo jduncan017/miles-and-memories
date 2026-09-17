@@ -21,10 +21,10 @@ export function StatementBand({
       className="StatementBand pt-10 lg:pt-25"
     >
       <div className="StatementBandCopy mx-auto flex max-w-250 flex-col items-center gap-3 text-center">
-        <h2 className="StatementBandTitle font-body text-xl font-bold tracking-[0.09em] uppercase md:text-2xl">
+        <h2 className="StatementBandTitle font-body text-xl font-bold tracking-[0.09em] uppercase md:text-[2rem]">
           {title}
         </h2>
-        <p className="StatementBandBody max-w-text font-heading text-lg font-normal tracking-[0.02em] text-g3 capitalize">
+        <p className="StatementBandBody max-w-text font-heading text-lg font-normal tracking-[0.02em] text-g3 capitalize md:text-[1.375rem]">
           {body}
         </p>
       </div>

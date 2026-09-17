@@ -86,7 +86,7 @@ export function PageHero({
           {subtitle && (
             <p
               className={cx(
-                "PageHeroSubtitle max-w-80 text-lg text-n1 md:max-w-[43.75rem]",
+                "PageHeroSubtitle max-w-80 text-lg text-n1 md:max-w-[43.75rem] lg:text-[1.375rem]",
                 italicSubtitle && "italic",
               )}
             >

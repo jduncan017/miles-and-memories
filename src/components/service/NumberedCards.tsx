@@ -15,9 +15,9 @@ export function NumberedCards({
   items: { title: string; body: string }[];
 }) {
   return (
-    <SectionWrapper tone="cream">
+    <SectionWrapper tone="creamDeep">
       <h2 className="NumberedCardsTitle max-w-200 capitalize">{title}</h2>
-      <ol className="NumberedCardsList mt-10 grid gap-6 md:grid-cols-3">
+      <ol className="NumberedCardsList mt-10 grid gap-6 lg:grid-cols-3">
         {items.map((item, i) => (
           <li key={item.title}>
             <FadeIn delay={i * 120} className="h-full">

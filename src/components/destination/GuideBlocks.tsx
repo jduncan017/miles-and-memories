@@ -48,7 +48,7 @@ export function Intro({ image, alt, children }: BlockProps) {
       <div
         className={cx(
           PHOTO,
-          "aspect-[342/240] lg:order-2 lg:aspect-auto lg:min-h-[34.5rem] lg:self-stretch",
+          "aspect-[342/240] lg:order-2 lg:aspect-auto lg:self-stretch",
         )}
       >
         <Image
@@ -95,12 +95,7 @@ export function Panel({
 export function Split({ image, alt, children }: BlockProps) {
   return (
     <div className="GuideSplit grid gap-10 lg:grid-cols-2">
-      <div
-        className={cx(
-          PHOTO,
-          "aspect-[342/240] lg:aspect-auto lg:min-h-[30rem]",
-        )}
-      >
+      <div className={cx(PHOTO, "aspect-[342/240] lg:aspect-auto")}>
         <Image
           src={image}
           alt={alt}

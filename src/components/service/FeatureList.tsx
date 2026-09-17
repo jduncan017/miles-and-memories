@@ -57,6 +57,9 @@ export function FeatureList({
             const Icon = ICONS[item.icon];
             return (
               <li key={item.title} className="FeatureItem flex gap-3 lg:gap-4">
+                {/* Live used solid Heroicons here. Filling the lucide outline
+                    equivalents turns the calendar into a pink block, so these
+                    stay outlined; a real solid icon set would be the fix. */}
                 <Icon
                   aria-hidden="true"
                   strokeWidth={1.75}

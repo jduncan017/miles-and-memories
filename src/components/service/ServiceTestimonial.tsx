@@ -22,7 +22,7 @@ export function ServiceTestimonial({
   return (
     <SectionWrapper tone="white">
       <FadeIn>
-        <figure className="ServiceTestimonial mx-auto flex max-w-220 flex-col items-center gap-6 text-center md:flex-row md:gap-10 md:text-left">
+        <figure className="ServiceTestimonial mx-auto flex max-w-220 flex-col items-center gap-6 text-center md:gap-10 lg:flex-row lg:text-left">
           <Image
             src={image.src}
             alt={image.alt}

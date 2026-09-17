@@ -19,7 +19,7 @@ export function StoryRows({
   rows: { title: string; body: string; image: ServiceImage }[];
 }) {
   return (
-    <SectionWrapper tone="cream">
+    <SectionWrapper tone="creamDeep">
       <SectionHeader title={title} className="max-w-200" />
       <div className="StoryRowsList mt-10 flex flex-col gap-10 lg:mt-16 lg:gap-20">
         {rows.map((row, i) => (

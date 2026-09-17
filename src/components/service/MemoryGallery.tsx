@@ -9,7 +9,7 @@ import type { ServiceImage } from "~/content/services";
  * Measured off live: a 900px block, rows of 348 + 532 then 532 + 348 with a
  * 20px gap, 320px tall, 16px radius; a single column on phones.
  */
-const ROWS = ["md:grid-cols-[348fr_532fr]", "md:grid-cols-[532fr_348fr]"];
+const ROWS = ["lg:grid-cols-[348fr_532fr]", "lg:grid-cols-[532fr_348fr]"];
 
 export function MemoryGallery({
   title,

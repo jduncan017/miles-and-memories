@@ -33,7 +33,7 @@ const SOCIAL = [
 ];
 
 const linkClass =
-  "rounded-xs text-g0 transition-colors hover:text-p2 focus-visible:ring-2 focus-visible:ring-p3 focus-visible:outline-none";
+  "rounded-xs text-lg text-g0 transition-colors hover:text-p2 focus-visible:ring-2 focus-visible:ring-p3 focus-visible:outline-none";
 
 export function Footer() {
   return (
@@ -49,7 +49,7 @@ export function Footer() {
               className="h-auto w-56 md:w-72 lg:w-85"
             />
             <div className="FooterContact flex flex-col gap-2">
-              <p className="text-sm tracking-[-0.04em] text-n0 uppercase">
+              <p className="text-[1.125rem] tracking-[-0.04em] text-n0 uppercase">
                 Contact Info
               </p>
               <a
@@ -71,7 +71,7 @@ export function Footer() {
               <h2 className="font-body text-2xl font-semibold text-n0">
                 Follow Us on Social Media
               </h2>
-              <ul className="flex gap-4">
+              <ul className="flex gap-8">
                 {SOCIAL.map(({ href, label, Icon }) => (
                   <li key={label}>
                     <a
@@ -79,9 +79,9 @@ export function Footer() {
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={`Miles & Memories on ${label}`}
-                      className="flex size-12 items-center justify-center rounded-md text-n0 transition-colors hover:text-p2 focus-visible:ring-2 focus-visible:ring-p3 focus-visible:outline-none"
+                      className="flex size-13 items-center justify-center rounded-md text-n0 transition-colors hover:text-p2 focus-visible:ring-2 focus-visible:ring-p3 focus-visible:outline-none"
                     >
-                      <Icon className="size-8" />
+                      <Icon className="size-9" />
                     </a>
                   </li>
                 ))}
@@ -91,7 +91,7 @@ export function Footer() {
 
           <div className="FooterNav flex flex-col justify-between gap-10">
             <nav aria-label="Footer">
-              <p className="text-sm tracking-[-0.04em] text-n0 uppercase">
+              <p className="text-[1.125rem] tracking-[-0.04em] text-n0 uppercase">
                 Sitemap
               </p>
               <ul className="mt-4 grid grid-cols-1 gap-x-6 gap-y-4 sm:grid-cols-2">
@@ -112,7 +112,7 @@ export function Footer() {
                 height={281}
                 className="h-auto w-64 md:w-87"
               />
-              <p className="pl-1 text-g0">
+              <p className="pl-1 text-lg text-g0">
                 An Independent Contractor of{" "}
                 <a
                   href={SITE.hostAgency.url}
@@ -127,9 +127,9 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="FooterLegal flex flex-col gap-4 text-sm md:flex-row md:items-start md:justify-between">
+        <div className="FooterLegal flex flex-col gap-4 text-[1.125rem] md:flex-row md:items-start md:justify-between">
           <div className="flex flex-col gap-1">
-            <p className="text-sm">
+            <p className="text-[1.125rem]">
               Copyright © {new Date().getFullYear()} Miles & Memories. All
               Rights Reserved.
             </p>
@@ -137,7 +137,7 @@ export function Footer() {
               href="https://www.digitalnovastudio.com"
               target="_blank"
               rel="noopener"
-              className={`${linkClass} self-start text-sm`}
+              className={`${linkClass} self-start text-[1.125rem]`}
             >
               Site Developed by DigitalNova Studios
             </a>

@@ -32,7 +32,7 @@ const VARIANTS: Record<
   { pill: string; circle: string; arrow: string }
 > = {
   primary: {
-    pill: "bg-p3 text-n0 hover:bg-p4 active:bg-p5",
+    pill: "bg-p3 text-n0 active:bg-p4",
     circle: "bg-n0",
     arrow: "text-g5",
   },
@@ -75,7 +75,9 @@ export function Button(props: AsLink | AsButton) {
   } = props;
   const v = VARIANTS[variant];
   const classes = cx(
-    "Button group inline-flex min-h-13 items-center justify-between gap-4 rounded-full py-1.5 pr-2 pl-6 text-left text-lg leading-tight font-medium md:whitespace-nowrap shadow-[0.125rem_0.125rem_0.5rem_rgb(0_0_0/0.25)] transition-colors duration-300",
+    "Button group inline-flex min-h-13 items-center justify-between gap-4 rounded-full py-1.5 pr-2 pl-6 text-left text-lg leading-tight font-medium md:whitespace-nowrap shadow-[0.125rem_0.125rem_0.5rem_rgb(0_0_0/0.25)] transition-[color,background-color,box-shadow] duration-300",
+    // Live's hover: the fill stays and a pink glow appears around the pill.
+    "hover:shadow-[0_0_0.25rem_var(--color-p2)]",
     "focus-visible:ring-2 focus-visible:ring-p3 focus-visible:ring-offset-2 focus-visible:outline-none",
     v.pill,
     fullOnMobile && "w-full md:w-auto",

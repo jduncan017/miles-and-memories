@@ -40,17 +40,17 @@ export function FinalCta({
   const copy = (
     <div className="FinalCtaCopy mx-auto flex max-w-[65rem] flex-col items-center gap-10 text-center">
       <div className="flex flex-col items-center gap-4">
-        <h2 className="FinalCtaTitle max-w-[43.75rem] text-n1 capitalize">
+        <h2 className="FinalCtaTitle max-w-[80rem] text-n1 capitalize">
           {title}
         </h2>
         <p className="FinalCtaBody max-w-[43.75rem] text-lg text-n1">{body}</p>
       </div>
-      <div className="FinalCtaActions flex w-full flex-col items-center justify-center gap-4 sm:w-auto sm:flex-row">
-        <Button href={primary.href} fullOnMobile>
-          {primary.label}
-        </Button>
+      {/* Auto width, centred, as live: a full-width pill here reads as a form
+          submit rather than an invitation. */}
+      <div className="FinalCtaActions flex flex-col items-center justify-center gap-4 sm:flex-row">
+        <Button href={primary.href}>{primary.label}</Button>
         {secondary && (
-          <Button href={secondary.href} variant="light" fullOnMobile>
+          <Button href={secondary.href} variant="light">
             {secondary.label}
           </Button>
         )}
@@ -62,9 +62,9 @@ export function FinalCta({
     <section
       className={cx(
         "FinalCta relative isolate overflow-hidden py-24 md:px-10 lg:px-20 lg:py-40",
-        variant === "photo" ? "px-4" : "px-6",
+        variant === "photo" ? "px-0 md:px-10" : "px-6",
         variant === "parallax" && "[clip-path:inset(0)]",
-        "shadow-[inset_0_-0.25rem_0.5rem_rgb(0_0_0/0.25),inset_0_0.25rem_0.5rem_rgb(0_0_0/0.25)]",
+        "shadow-[inset_0_-0.25rem_0.5rem_rgb(0_0_0/0.25)]",
       )}
     >
       {variant === "parallax" ? (
@@ -99,7 +99,7 @@ export function FinalCta({
         )}
       />
       {variant === "photo" ? (
-        <div className="FinalCtaPanel mx-auto max-w-section rounded-2xl bg-g5/50 px-5 py-12 shadow-theme-sm backdrop-blur-[10px] md:p-20">
+        <div className="FinalCtaPanel mx-auto max-w-section bg-g5/50 px-10 py-12 shadow-theme-sm backdrop-blur-[10px] md:rounded-2xl md:p-20">
           {copy}
         </div>
       ) : (

@@ -11,22 +11,26 @@ import { cx } from "~/lib/cx";
  *   page    n1 flat                                    long-form pages (contact, guides)
  *   dark    g5                                         statement bands
  *
- * Padding is 80px top/bottom on desktop (the live rhythm), 64px on phones.
+ * Padding follows live: 40px top/bottom on phones, 64 on tablet, 100 on desktop.
  */
-export type SectionTone = "white" | "cream" | "page" | "dark";
+export type SectionTone = "white" | "cream" | "creamDeep" | "page" | "dark";
 
 const TONE: Record<SectionTone, string> = {
   white: "bg-n0",
   cream:
     "bg-linear-150 from-n1 to-n2 relative z-[1] shadow-[0_0.25rem_0.5rem_rgb(0_0_0/0.25)]",
+  // One step darker: the service and FAQ bands on live run n2 -> n3.
+  creamDeep:
+    "bg-linear-150 from-n2 to-n3 relative z-[1] shadow-[0_0.25rem_0.5rem_rgb(0_0_0/0.25)]",
   page: "bg-n1",
   dark: "bg-g5 text-n0",
 };
 
 const PAD = {
   none: "",
-  default: "py-16 lg:py-20",
-  lg: "py-20 lg:py-30",
+  // Live's rhythm: 40 on phones, 64 on tablet, 100 on desktop.
+  default: "py-10 md:py-16 lg:py-25",
+  lg: "py-16 md:py-20 lg:py-30",
 } as const;
 
 export function SectionWrapper({
