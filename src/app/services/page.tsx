@@ -26,7 +26,6 @@ export default function ServicesPage() {
   return (
     <>
       <PageHero
-        height="tall"
         image="/images/beautiful-secluded-beach.webp"
         imageAlt="Secluded palm-lined beach"
         title="Travel Planning Services: From Vision to Vacation"

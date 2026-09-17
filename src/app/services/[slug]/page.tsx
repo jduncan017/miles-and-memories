@@ -71,7 +71,6 @@ export default async function ServicePage({
       />
 
       <PageHero
-        height="tall"
         title={s.hero.title}
         image={s.hero.image.src}
         imageAlt={s.hero.image.alt}

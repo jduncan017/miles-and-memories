@@ -12,7 +12,9 @@ import { cx } from "~/lib/cx";
  * matched this band by band against live). From md it starts at 40%, passes
  * 70% by the copy and is solid by the bottom edge. The copy sits bottom-left: H1, a
  * hairline rule, then a subtitle row with the CTAs pushed to the right.
- * Heights at 1440: home 1000px, service pages 931px, other interiors 790px.
+ * One height everywhere (2026-09-17, owner's call): 640px on phones, 800px on
+ * tablet, 1000px on desktop, the home hero's. Live varied it per page between
+ * 696 and 1000, which read as inconsistent once the pages sat side by side.
  *
  * `data-hero` marks the band for the Navbar, which turns solid once it has
  * scrolled past.
@@ -27,7 +29,6 @@ export function PageHero({
   imageAlt = "",
   video,
   actions,
-  height = "interior",
   italicSubtitle = false,
 }: {
   title: ReactNode;
@@ -37,19 +38,13 @@ export function PageHero({
   /** Plays muted and looped over `image`, which is its poster. */
   video?: string;
   actions?: ReactNode;
-  height?: "home" | "tall" | "interior";
   italicSubtitle?: boolean;
 }) {
   return (
     <header
       data-hero
       className={cx(
-        "PageHero relative isolate flex items-end overflow-hidden bg-s5",
-        {
-          home: "min-h-[40rem] md:min-h-[50rem] lg:h-[62.5rem]",
-          tall: "md:min-h-[44rem] lg:h-[58.1875rem]",
-          interior: "md:min-h-[40rem] lg:h-[49.375rem]",
-        }[height],
+        "PageHero relative isolate flex min-h-[40rem] items-end overflow-hidden bg-s5 md:min-h-[50rem] lg:h-[62.5rem]",
       )}
     >
       <Image

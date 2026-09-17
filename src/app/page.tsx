@@ -95,7 +95,6 @@ export default function HomePage() {
   return (
     <>
       <PageHero
-        height="home"
         image="/images/home-hero-ocean-poster.webp"
         video="/video/home-hero-ocean.mp4"
         title={

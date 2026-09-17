@@ -5,8 +5,9 @@ import Image from "next/image";
  * and sets the copy centred in a dark caption bar across the bottom of the
  * photo rather than over a gradient.
  *
- * Measured off live at 1440: a photo under the 100px bar and a caption band
- * of 80% black with a 5px blur.
+ * A photo under the 100px bar, and a caption band of 80% black with a 5px
+ * blur. The frame is sized so the header totals the same 640 / 800 / 1000px as
+ * PageHero once the bar above it is counted.
  *
  * Deliberately not live's proportions (2026-09-17): live's caption runs three
  * lines of 52px h1 over an uppercase 22px tagline, which made the band as tall
@@ -27,7 +28,7 @@ export function DestinationHero({
 }) {
   return (
     <header data-hero className="DestinationHero bg-g5 pt-19 md:pt-25">
-      <div className="DestinationHeroFrame relative isolate flex h-[42rem] items-end overflow-hidden shadow-theme-sm md:h-[48rem] lg:h-[54rem]">
+      <div className="DestinationHeroFrame relative isolate flex h-[35.25rem] items-end overflow-hidden shadow-theme-sm md:h-[43.75rem] lg:h-[56.25rem]">
         <Image
           src={image}
           alt={imageAlt}
