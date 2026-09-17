@@ -94,7 +94,7 @@ export function PageHero({
             </p>
           )}
           {actions && (
-            <div className="PageHeroActions flex flex-col gap-4 sm:flex-row md:shrink-0">
+            <div className="PageHeroActions flex flex-col items-start gap-4 sm:flex-row md:shrink-0">
               {actions}
             </div>
           )}
