@@ -7,10 +7,10 @@ import { cx } from "~/lib/cx";
  *
  * Measured off the live build: the photo (or video) fills the band at 90%
  * opacity over the wine s5, which dims it slightly, and a transparent → g5
- * gradient darkens toward the copy. On phones it starts at the top and the
- * copy starts 320px down, so the whole photo reads darker; from md it starts
- * at 40%. Either way it passes 70% by the copy and is solid g5 by the bottom
- * edge, darker than a plain linear fade, as live reads. The copy sits bottom-left: H1, a
+ * gradient darkens toward the copy. On phones it starts at the top, is 80% by
+ * the middle and solid by 85%, where the copy sits (scripts/hero-luma.mjs
+ * matched this band by band against live). From md it starts at 40%, passes
+ * 70% by the copy and is solid by the bottom edge. The copy sits bottom-left: H1, a
  * hairline rule, then a subtitle row with the CTAs pushed to the right.
  * Heights at 1440: home 1000px, service pages 931px, other interiors 790px.
  *
@@ -74,7 +74,7 @@ export function PageHero({
       )}
       <div
         aria-hidden="true"
-        className="PageHeroShade absolute inset-0 -z-10 bg-linear-to-b from-transparent via-g5/70 via-70% to-g5 to-95% md:from-40% md:via-75%"
+        className="PageHeroShade absolute inset-0 -z-10 bg-linear-to-b from-transparent via-g5/80 via-55% to-g5 to-85% md:from-40% md:via-g5/70 md:via-75% md:to-95%"
       />
 
       <div className="PageHeroCopy mx-auto flex w-full max-w-[100rem] flex-col gap-4 px-6 pt-80 pb-10 md:px-10 md:pt-40 lg:px-20 lg:pb-20">

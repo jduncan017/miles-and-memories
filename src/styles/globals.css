@@ -236,16 +236,18 @@
  * ── Page transition ──
  * Rebuilt from a 60fps capture of the Framer site. A near-black band sweeps up
  * the screen twice: first over the old page, then off the new one. Under the
- * band, both pages drift up slowly, so the motion reads as one continuous
- * upward move with the band travelling faster than the pages. About 1.2s end
+ * band, both pages drift up, so the motion reads as one continuous
+ * upward move. About 1.2s end
  * to end. Runs on the `root` view-transition snapshot, started by
  * components/PageTransition.tsx (which explains why it is not React's).
  * Browsers without the View Transitions API just navigate.
  *
  * The band edge is a clip inset plus the page's drift, on one easing, so it
- * always crosses the full screen: 85% inset + 15% drift = 100%.
- *   old: bottom inset 0 → 85% while the page moves 0 → -15%
- *   new: top inset 85% → 0 while the page moves 15% → 0
+ * always crosses the full screen: 65% inset + 35% drift = 100%. The larger
+ * the drift, the faster the pages move and the slower the band appears to
+ * cross the content, with the same total time.
+ *   old: bottom inset 0 → 65% while the page moves 0 → -35%
+ *   new: top inset 65% → 0 while the page moves 35% → 0
  */
 ::view-transition {
   background: var(--color-g5);
@@ -268,15 +270,15 @@
     transform: translateY(0);
   }
   to {
-    clip-path: inset(0 0 85% 0);
-    transform: translateY(-15%);
+    clip-path: inset(0 0 65% 0);
+    transform: translateY(-35%);
   }
 }
 
 @keyframes page-wipe-in {
   from {
-    clip-path: inset(85% 0 0 0);
-    transform: translateY(15%);
+    clip-path: inset(65% 0 0 0);
+    transform: translateY(35%);
   }
   to {
     clip-path: inset(0 0 0 0);
