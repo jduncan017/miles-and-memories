@@ -60,11 +60,17 @@
   --color-n4: #ddd8cb;
   --color-n5: #c9c4b7;
 
-  /* Primary: the brand pink. p3 is the logo ampersand and the protected CTA fill. */
+  /*
+   * Primary: the brand pink. p3 is the protected CTA fill and the highlight
+   * colour. Brighter than the Framer site's #d63663 by request (2026-09-17);
+   * the logo keeps its own ampersand pink. White on p3 measures 4.38:1, just
+   * under AA for text this size, which is the accepted cost of the brighter
+   * fill: keep CTA labels at 20px medium or larger and never go smaller.
+   */
   --color-p0: #fcedf1;
   --color-p1: #f7c9d6;
   --color-p2: #ef799a;
-  --color-p3: #d63663;
+  --color-p3: #e62462;
   --color-p4: #b0284f;
   --color-p5: #7a1a37;
 

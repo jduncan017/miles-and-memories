@@ -44,7 +44,7 @@ www.milesandmemories.net.
 | `g3` #3a3a3a on `n1` | 11.1:1 | body ✅ |
 | `g2` #535353 on `n1` | 7.5:1 | secondary ✅ |
 | `g1` #858481 on `n1` | 3.6:1 | ❌ body; large text only |
-| `n0` on `p3` #d63663 | 4.6:1 | CTA label ✅ (just) |
-| `p3` on `n0` | 4.6:1 | highlight text ✅ |
+| `n0` on `p3` #e62462 | 4.4:1 | CTA label ⚠️ just under AA, accepted for the brighter fill (2026-09-17); keep labels 20px medium or larger |
+| `p3` on `n0` | 4.3:1 | highlight words ⚠️ large text only (hero subtitle, stats) |
 | `g0` #e0e0e0 on `g4` #262626 | 11.5:1 | footer text ✅ |
-| `p3` on `g4` | 3.3:1 | ❌ small text: the footer's "Travelmation.net" link, carried from live. Candidate fix: `p2` (5.7:1) |
+| `p3` on `g4` | 3.5:1 | ❌ small text: the footer's "Travelmation.net" link, carried from live. Candidate fix: `p2` (5.7:1) |

@@ -90,7 +90,9 @@ export function Navbar() {
               : "bg-g5/70",
       )}
     >
-      <div className="NavbarInner mx-auto flex h-19 items-center justify-between gap-6 px-4 md:h-25 md:px-6">
+      {/* Same rail as the hero copy (max-w-[100rem], 24/40/80px sides), so the
+          logo lines up with the H1 beneath it. */}
+      <div className="NavbarInner mx-auto flex h-19 max-w-[100rem] items-center justify-between gap-6 px-6 md:h-25 md:px-10 lg:px-20">
         <Link
           href="/"
           aria-label="Miles & Memories home"
@@ -133,7 +135,7 @@ export function Navbar() {
 
         <nav
           aria-label="Main"
-          className="NavbarLinks hidden flex-1 items-center gap-8 lg:flex"
+          className="NavbarLinks hidden flex-1 items-center gap-8 lg:flex lg:pl-10"
         >
           <div
             className="NavbarServices relative"
