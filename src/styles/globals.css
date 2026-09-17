@@ -234,16 +234,18 @@
 
 /*
  * ── Page transition ──
- * Rebuilt from a 60fps capture of the Framer site, then slowed to taste. The
- * old page drifts up while near-black wipes over it from the bottom; after a
- * short beat the new page rises from below. Runs on the `root` view-transition
- * snapshot, started by components/PageTransition.tsx (which explains why it
- * is not React's), so the navbar travels with the page as it does on live.
+ * Rebuilt from a 60fps capture of the Framer site. A near-black band sweeps up
+ * the screen twice: first over the old page, then off the new one. Under the
+ * band, both pages drift up slowly, so the motion reads as one continuous
+ * upward move with the band travelling faster than the pages. About 1.2s end
+ * to end. Runs on the `root` view-transition snapshot, started by
+ * components/PageTransition.tsx (which explains why it is not React's).
  * Browsers without the View Transitions API just navigate.
  *
- * The wipe edge is the snapshot's bottom inset plus its upward drift, both on
- * one easing, so the edge still reaches the top of the screen exactly as the
- * page finishes rising 30%: 70% inset + 30% drift = 100%.
+ * The band edge is a clip inset plus the page's drift, on one easing, so it
+ * always crosses the full screen: 85% inset + 15% drift = 100%.
+ *   old: bottom inset 0 → 85% while the page moves 0 → -15%
+ *   new: top inset 85% → 0 while the page moves 15% → 0
  */
 ::view-transition {
   background: var(--color-g5);
@@ -251,11 +253,13 @@
 ::view-transition-group(root) {
   animation-duration: 0s;
 }
+/* Ease-in out, ease-out in: the band keeps its speed through the handoff, so
+ * the screen is fully dark for an instant rather than a pause. */
 ::view-transition-old(root) {
-  animation: page-wipe-out 0.75s cubic-bezier(0.65, 0, 0.35, 1) both;
+  animation: page-wipe-out 0.6s cubic-bezier(0.5, 0, 0.75, 0) both;
 }
 ::view-transition-new(root) {
-  animation: page-rise-in 0.85s cubic-bezier(0.22, 1, 0.36, 1) 0.7s both;
+  animation: page-wipe-in 0.6s cubic-bezier(0.25, 1, 0.5, 1) 0.6s both;
 }
 
 @keyframes page-wipe-out {
@@ -264,16 +268,18 @@
     transform: translateY(0);
   }
   to {
-    clip-path: inset(0 0 70% 0);
-    transform: translateY(-30%);
+    clip-path: inset(0 0 85% 0);
+    transform: translateY(-15%);
   }
 }
 
-@keyframes page-rise-in {
+@keyframes page-wipe-in {
   from {
-    transform: translateY(100%);
+    clip-path: inset(85% 0 0 0);
+    transform: translateY(15%);
   }
   to {
+    clip-path: inset(0 0 0 0);
     transform: translateY(0);
   }
 }

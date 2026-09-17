@@ -21,7 +21,7 @@ export function DestinationHero({
   imageAlt: string;
 }) {
   return (
-    <header className="DestinationHero bg-g5 pt-19 md:pt-25">
+    <header data-hero className="DestinationHero bg-g5 pt-19 md:pt-25">
       <div className="DestinationHeroFrame relative isolate flex h-[40rem] items-end overflow-hidden shadow-theme-sm md:h-[45rem] lg:h-[50rem]">
         <Image
           src={image}
