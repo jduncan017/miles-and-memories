@@ -14,10 +14,12 @@ import { NAV_LINKS, PRIMARY_CTA, SERVICES_NAV } from "~/lib/site";
  * padding, a 20% black wash with a 4px backdrop blur so it reads over any hero
  * photo.
  *
- * Pages whose content starts on a light surface (the booking page, destination
- * guides, travel tip posts) get a solid g5 bar instead, because a 20% wash over
- * cream is invisible. That list lives here, not on the pages, so a new page of
- * an existing kind inherits the right bar.
+ * The wash only sits over the photo header. Once the page has scrolled past
+ * the element marked `data-hero` (PageHero sets it), the bar turns solid g5 so
+ * it reads over light sections. Pages whose content starts on a light surface
+ * (the booking page, destination guides, travel tip posts) are solid from the
+ * top; that list lives here so a new page of an existing kind inherits it. The
+ * open mobile panel is always solid.
  *
  * Open state for the mobile panel and the services menu is stored as "the path
  * it was opened on", so navigating closes both by derivation rather than an
@@ -31,12 +33,39 @@ const SOLID_ROUTES = [
 
 export function Navbar() {
   const pathname = usePathname();
-  const solid = SOLID_ROUTES.some((r) => r.test(pathname));
+  // Stored per path, like the menus below, so a navigation resets it by
+  // derivation until the next scroll event measures the new page.
+  const [pastHeroOn, setPastHeroOn] = useState<string | null>(null);
 
   const [panelFor, setPanelFor] = useState<string | null>(null);
   const panelOpen = panelFor === pathname;
   const [menuFor, setMenuFor] = useState<string | null>(null);
   const menuOpen = menuFor === pathname;
+  const solid =
+    SOLID_ROUTES.some((r) => r.test(pathname)) ||
+    pastHeroOn === pathname ||
+    panelOpen;
+
+  useEffect(() => {
+    const onScroll = () => {
+      const hero = document.querySelector("[data-hero]");
+      const nav = document.querySelector(".Navbar");
+      const past =
+        !!hero &&
+        !!nav &&
+        hero.getBoundingClientRect().bottom <=
+          nav.getBoundingClientRect().height;
+      setPastHeroOn(past ? pathname : null);
+    };
+    const frame = requestAnimationFrame(onScroll);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll, { passive: true });
+    return () => {
+      cancelAnimationFrame(frame);
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+    };
+  }, [pathname]);
 
   useEffect(() => {
     if (!panelOpen) return;
@@ -50,8 +79,8 @@ export function Navbar() {
   return (
     <header
       className={cx(
-        "Navbar fixed inset-x-0 top-0 z-50 shadow-[0_0.625rem_0.625rem_-0.25rem_rgb(0_0_0/0.06)]",
-        solid ? "bg-g5" : "bg-g5/20 backdrop-blur-[4px]",
+        "Navbar fixed inset-x-0 top-0 z-50 shadow-[0_0.625rem_0.625rem_-0.25rem_rgb(0_0_0/0.06)] backdrop-blur-[4px] transition-colors duration-500",
+        solid ? "bg-g5" : "bg-g5/20",
       )}
     >
       <div className="NavbarInner mx-auto flex h-19 items-center justify-between gap-6 px-4 md:h-25 md:px-6">

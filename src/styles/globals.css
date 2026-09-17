@@ -234,11 +234,16 @@
 
 /*
  * ── Page transition ──
- * Rebuilt from a 60fps capture of the Framer site: the old page wipes away
- * from the bottom up to near-black, holds a beat, then the new page rises from
- * below. Runs on the `root` view-transition snapshot, started by
- * components/PageTransition.tsx (which explains why it is not React's), so the navbar travels with the page as it does on live.
+ * Rebuilt from a 60fps capture of the Framer site, then slowed to taste. The
+ * old page drifts up while near-black wipes over it from the bottom; after a
+ * short beat the new page rises from below. Runs on the `root` view-transition
+ * snapshot, started by components/PageTransition.tsx (which explains why it
+ * is not React's), so the navbar travels with the page as it does on live.
  * Browsers without the View Transitions API just navigate.
+ *
+ * The wipe edge is the snapshot's bottom inset plus its upward drift, both on
+ * one easing, so the edge still reaches the top of the screen exactly as the
+ * page finishes rising 30%: 70% inset + 30% drift = 100%.
  */
 ::view-transition {
   background: var(--color-g5);
@@ -247,18 +252,20 @@
   animation-duration: 0s;
 }
 ::view-transition-old(root) {
-  animation: page-wipe-out 0.32s cubic-bezier(0.7, 0, 0.84, 0) both;
+  animation: page-wipe-out 0.75s cubic-bezier(0.65, 0, 0.35, 1) both;
 }
 ::view-transition-new(root) {
-  animation: page-rise-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.42s both;
+  animation: page-rise-in 0.85s cubic-bezier(0.22, 1, 0.36, 1) 0.7s both;
 }
 
 @keyframes page-wipe-out {
   from {
     clip-path: inset(0 0 0 0);
+    transform: translateY(0);
   }
   to {
-    clip-path: inset(0 0 100% 0);
+    clip-path: inset(0 0 70% 0);
+    transform: translateY(-30%);
   }
 }
 

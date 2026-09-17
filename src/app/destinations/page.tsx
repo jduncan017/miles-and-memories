@@ -61,25 +61,18 @@ export default function DestinationsPage() {
         title="Explore Destinations"
         subtitle="Some of our favorite destinations handpicked for unforgettable experiences."
         italicSubtitle
-        actions={
-          <Button href="/booking" fullOnMobile>
-            Book Your Appointment
-          </Button>
-        }
+        actions={<Button href="/contact">Book Your Appointment</Button>}
       />
 
-      <SectionWrapper tone="page">
+      <SectionWrapper tone="page" width="wide">
         <SectionHeader title="Where Will Your Next Story Happen?" />
         {/*
          * Two 480px squares 20px apart; an odd last card sits centred on its
          * own row at the same width.
          */}
-        <ul className="DestinationGrid mx-auto mt-10 grid max-w-245 gap-5 md:grid-cols-2">
+        <ul className="DestinationGrid -mx-6 mt-10 grid gap-5 md:mx-0 md:grid-cols-2 lg:grid-cols-3">
           {destinations.map((d) => (
-            <li
-              key={d.slug}
-              className="md:last:odd:col-span-2 md:last:odd:mx-auto md:last:odd:w-[calc(50%-0.625rem)]"
-            >
+            <li key={d.slug}>
               <ImageTile
                 href={`/destinations/${d.slug}`}
                 title={d.title}
@@ -88,7 +81,7 @@ export default function DestinationsPage() {
                 description={d.tagline}
                 mobileCta="View Guide"
                 desktopRatio="md:aspect-square"
-                sizes="(min-width: 64rem) 30rem, (min-width: 48rem) 50vw, 100vw"
+                sizes="(min-width: 64rem) 28rem, (min-width: 48rem) 50vw, 100vw"
               />
             </li>
           ))}

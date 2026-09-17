@@ -21,6 +21,7 @@ export default function ServicesPage() {
   return (
     <>
       <PageHero
+        height="tall"
         image="/images/beautiful-secluded-beach.webp"
         imageAlt="Secluded palm-lined beach"
         title="Travel Planning Services: From Vision to Vacation"
@@ -31,11 +32,7 @@ export default function ServicesPage() {
             everything you dreamed of.
           </>
         }
-        actions={
-          <Button href="/contact" fullOnMobile>
-            Book My Free Consultation
-          </Button>
-        }
+        actions={<Button href="/contact">Book My Free Consultation</Button>}
       />
 
       <SectionWrapper tone="white">

@@ -34,7 +34,7 @@ export default function TravelTipsPage() {
         }
       />
 
-      <SectionWrapper tone="cream" width="full" innerClassName="max-w-320">
+      <SectionWrapper tone="cream" width="wide">
         <h2 className="TravelTipsTitle text-center capitalize">
           Latest Articles
         </h2>
@@ -50,7 +50,7 @@ export default function TravelTipsPage() {
                 titleOnReveal="shrink"
                 mobileCta="Read More"
                 desktopRatio="md:aspect-[413/400]"
-                sizes="(min-width: 64rem) 26rem, (min-width: 48rem) 50vw, 100vw"
+                sizes="(min-width: 64rem) 28rem, (min-width: 48rem) 50vw, 100vw"
               />
             </li>
           ))}

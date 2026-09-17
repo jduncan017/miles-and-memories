@@ -65,6 +65,7 @@ export default async function ServicePage({
       />
 
       <PageHero
+        height="tall"
         title={s.hero.title}
         image={s.hero.image.src}
         imageAlt={s.hero.image.alt}
@@ -76,11 +77,7 @@ export default async function ServicePage({
             {s.hero.subtitle.after}
           </>
         }
-        actions={
-          <Button href="/contact" fullOnMobile>
-            {s.hero.cta}
-          </Button>
-        }
+        actions={<Button href="/contact">{s.hero.cta}</Button>}
       />
 
       <StatementBand title={s.statement.title} body={s.statement.body} />
