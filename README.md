@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# milesandmemories.net
 
-## Getting Started
+The Miles & Memories site (Mandy Gonzales, Travelmation), rebuilt off Framer
+onto Next.js.
 
-First, run the development server:
+- **Framework:** Next.js 16 (App Router, Turbopack), React 19, TypeScript
+- **Styling:** Tailwind CSS v4 on the design system from `dns-component-library`
+- **Content:** TypeScript records and MDX in `src/content`, edited in the repo
+- **Every public page is statically generated.**
+
+## Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+| Command | Does |
+|---|---|
+| `npm run dev` | Dev server |
+| `npm run build` | Production build (read the route table: public routes must be `○`/`●`) |
+| `npm run lint` | ESLint |
+| `npm run format` | Prettier with Tailwind class ordering |
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Where content lives
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Content | File |
+|---|---|
+| Site identity, nav, contact details, Cal.com link | `src/lib/site.ts` |
+| Homepage | `src/app/page.tsx` |
+| Reviews marquee | `src/content/testimonials.ts` |
+| Service pages (4) | `src/content/services.ts` |
+| Destination guides | `src/content/destinations/<slug>.mdx` |
+| Travel tips posts | `src/content/travel-tips/*.mdx` |
+| Privacy, terms | `src/content/legal/*.mdx` |
 
-## Learn More
+Adding a guide or a post is adding a file: the index, sitemap and structured
+data all read from the same directory.
 
-To learn more about Next.js, take a look at the following resources:
+## Conventions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`AGENTS.md` is the short version; `docs/reference/design-system.md` (§0 lists
+where this site deviates from the library, and why) and
+`docs/reference/css-organization.md` are binding.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## The old site
 
-## Deploy on Vercel
+- `extraction/`: everything recovered from the live Framer site: copy as
+  markdown per page, computed styles, and every original asset with a
+  manifest mapping Framer URLs to `public/`. Regenerate with
+  `node scripts/extract-live.mjs` and `node scripts/fetch-assets.mjs`.
+- `docs/screenshots/`: full-page captures of live at 1440 and 390.
+- `docs/www.milesandmemories.net/`: the raw HTML download.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+All three can be deleted once the new site is live and verified.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Before the DNS cutover
+
+- [ ] Client sign-off on the legal pages (placeholders and a wrong phone and domain in the live text)
+- [ ] Confirm the GTM container (GTM-T78WCQM7) is not needed beyond GA4
+- [ ] Book a test consultation through the Cal.com embed
+- [ ] Re-submit `sitemap.xml` in Google Search Console

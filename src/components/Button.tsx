@@ -20,6 +20,10 @@ import { cx } from "~/lib/cx";
  *   dark     g5 pill · p3 circle · n0 arrow      on light bands
  *
  * The arrow turns 45° on hover, which is the live site's only button motion.
+ *
+ * Labels may wrap below md: a full-width button inside a glass panel on a
+ * 390px phone has ~250px for its label, and the live CTA copy is longer than
+ * that. From md up they stay on one line.
  */
 export type ButtonVariant = "primary" | "light" | "dark";
 
@@ -71,7 +75,7 @@ export function Button(props: AsLink | AsButton) {
   } = props;
   const v = VARIANTS[variant];
   const classes = cx(
-    "Button group inline-flex h-13 items-center justify-between gap-4 rounded-full py-1.5 pr-2 pl-6 text-lg font-medium whitespace-nowrap shadow-[0.125rem_0.125rem_0.5rem_rgb(0_0_0/0.25)] transition-colors duration-300",
+    "Button group inline-flex min-h-13 items-center justify-between gap-4 rounded-full py-1.5 pr-2 pl-6 text-left text-lg leading-tight font-medium md:whitespace-nowrap shadow-[0.125rem_0.125rem_0.5rem_rgb(0_0_0/0.25)] transition-colors duration-300",
     "focus-visible:ring-2 focus-visible:ring-p3 focus-visible:ring-offset-2 focus-visible:outline-none",
     v.pill,
     fullOnMobile && "w-full md:w-auto",

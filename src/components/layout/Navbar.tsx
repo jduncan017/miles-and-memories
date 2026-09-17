@@ -140,9 +140,10 @@ export function Navbar() {
         </nav>
 
         <div className="NavbarActions flex items-center gap-3">
-          <Button href={PRIMARY_CTA.href} className="hidden md:inline-flex">
-            {PRIMARY_CTA.label}
-          </Button>
+          {/* Wrapped, because Button's own inline-flex outranks a hidden passed in. */}
+          <div className="NavbarCta hidden md:block">
+            <Button href={PRIMARY_CTA.href}>{PRIMARY_CTA.label}</Button>
+          </div>
           <button
             type="button"
             aria-label={panelOpen ? "Close menu" : "Open menu"}
