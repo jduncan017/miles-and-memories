@@ -3,8 +3,8 @@
  * copy, and writes web-ready versions into public/.
  *
  *   extraction/assets/<framer-id>.<ext>      the original, untouched
- *   public/images/<name>.webp                raster, capped at the largest size the
- *                                            live site ever rendered it, x2, max 2400px
+ *   public/images/<name>.webp                raster: webp originals copied untouched,
+ *                                            jpg/png converted once (q90 / lossless)
  *   public/images/<name>.svg | public/video/<name>.mp4   copied as-is
  *   extraction/assets/manifest.json          url -> public path, alts, pages, rendered size
  *
@@ -83,14 +83,21 @@ for (const [url, r] of refs) {
   } else {
     const meta = await sharp(orig).metadata();
     natural = `${meta.width}x${meta.height}`;
-    const target = Math.min(2400, Math.max(r.maxW * 2, 400), meta.width);
     publicPath = `/images/${base}.webp`;
-    // Logos keep transparency and get lossless-ish quality; photos get q80.
-    const isPng = ext === "png";
-    await sharp(orig)
-      .resize({ width: target, withoutEnlargement: true })
-      .webp(isPng ? { quality: 90, alphaQuality: 100 } : { quality: 80 })
-      .toFile(`public${publicPath}`);
+    if (ext === "webp" && meta.width <= 2560) {
+      // Framer's originals are already efficient webp. Re-encoding them only
+      // loses detail, so they are copied byte for byte; next/image does the
+      // per-viewport resizing.
+      copyFileSync(orig, `public${publicPath}`);
+    } else {
+      // jpg/png sources (and anything oversized) get one conversion, at a
+      // quality high enough that the second pass in next/image is the only
+      // visible one. PNGs are logos and icons: lossless keeps their edges.
+      await sharp(orig)
+        .resize({ width: 2560, withoutEnlargement: true })
+        .webp(ext === "png" ? { lossless: true } : { quality: 90 })
+        .toFile(`public${publicPath}`);
+    }
   }
 
   manifest.push({

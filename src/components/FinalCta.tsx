@@ -11,9 +11,13 @@ import { cx } from "~/lib/cx";
  *    blur, 16px radius, 80px padding).
  *  - `shade`: no panel, the photo under a 60% shade. Destination guides and
  *    travel tips close with this.
- *  - `dark`: the homepage's version: no panel, and the photo all but hidden
- *    under a 90% shade (live measures 60%, but over a near-black section
- *    background, so what a visitor sees is effectively black).
+ *  - `parallax`: the homepage and services index. No panel; the photo stays
+ *    fixed to the viewport while the section, its 60% shade and the copy
+ *    scroll over it. Live does this with a sticky, viewport-tall photo; here
+ *    the photo is `position: fixed` inside a section with `clip-path:
+ *    inset(0)`, which clips a fixed child to the section's box, so the effect
+ *    needs no scroll listener. (A `transform` on any ancestor would break
+ *    `fixed`; nothing in the layout sets one.)
  *
  * The primary action defaults to /contact. A second, light "Explore Services"
  * action is optional.
@@ -31,7 +35,7 @@ export function FinalCta({
   image: string;
   primary?: { href: string; label: string };
   secondary?: { href: string; label: string };
-  variant?: "photo" | "shade" | "dark";
+  variant?: "photo" | "shade" | "parallax";
 }) {
   const copy = (
     <div className="FinalCtaCopy mx-auto flex max-w-[65rem] flex-col items-center gap-10 text-center">
@@ -59,21 +63,39 @@ export function FinalCta({
       className={cx(
         "FinalCta relative isolate overflow-hidden py-24 md:px-10 lg:px-20 lg:py-40",
         variant === "photo" ? "px-4" : "px-6",
+        variant === "parallax" && "[clip-path:inset(0)]",
         "shadow-[inset_0_-0.25rem_0.5rem_rgb(0_0_0/0.25),inset_0_0.25rem_0.5rem_rgb(0_0_0/0.25)]",
       )}
     >
-      <Image
-        src={image}
-        alt=""
-        fill
-        sizes="100vw"
-        className="FinalCtaImage -z-20 object-cover"
-      />
+      {variant === "parallax" ? (
+        // next/image `fill` forces position: absolute inline, so the fixed
+        // positioning lives on a wrapper, sized to the large viewport so
+        // mobile toolbar resizes do not expose an edge.
+        <div className="FinalCtaParallax fixed inset-x-0 top-0 -z-20 h-lvh">
+          <Image
+            src={image}
+            alt=""
+            fill
+            sizes="100vw"
+            className="FinalCtaImage object-cover"
+          />
+        </div>
+      ) : (
+        <Image
+          src={image}
+          alt=""
+          fill
+          sizes="100vw"
+          className="FinalCtaImage -z-20 object-cover"
+        />
+      )}
       <div
         aria-hidden="true"
         className={cx(
           "FinalCtaShade absolute inset-0 -z-10",
-          { photo: "bg-g5/25", shade: "bg-g5/60", dark: "bg-g5/90" }[variant],
+          { photo: "bg-g5/25", shade: "bg-g5/60", parallax: "bg-g5/60" }[
+            variant
+          ],
         )}
       />
       {variant === "photo" ? (

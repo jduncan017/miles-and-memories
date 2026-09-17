@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { TipCard } from "~/components/article/TipCard";
 import { Button } from "~/components/Button";
+import { ImageTile } from "~/components/ImageTile";
 import { PageHero } from "~/components/PageHero";
 import { SectionWrapper } from "~/components/SectionWrapper";
 import { getAllTravelTips } from "~/lib/travel-tips";
@@ -41,12 +41,16 @@ export default function TravelTipsPage() {
         <ul className="TravelTipsGrid -mx-6 mt-10 grid gap-5 md:mx-0 md:grid-cols-2 lg:grid-cols-3">
           {tips.map((tip) => (
             <li key={tip.slug}>
-              <TipCard
+              <ImageTile
                 href={`/travel-tips/${tip.slug}`}
                 title={tip.title}
-                excerpt={tip.excerpt}
+                description={tip.excerpt}
                 image={tip.hero}
                 imageAlt={tip.heroAlt}
+                titleOnReveal="shrink"
+                mobileCta="Read More"
+                desktopRatio="md:aspect-[413/400]"
+                sizes="(min-width: 64rem) 26rem, (min-width: 48rem) 50vw, 100vw"
               />
             </li>
           ))}

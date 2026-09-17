@@ -66,9 +66,24 @@ the live values. No other font sizes unless a measurement demands it.
 
 `Button` (primary / light / dark; `href` makes it a link) · `PageHero` ·
 `SectionWrapper` (tone white / cream / page / dark) · `SectionHeader` ·
-`ImageTile` · `FinalCta` (photo / dark) · `FaqSection` (+ FAQPage JSON-LD) ·
-`StatRow` · `TestimonialMarquee` · `BookingEmbed` (Cal.com) · `FadeIn` ·
-`JsonLd` · `layout/Navbar` · `layout/Footer`. Site constants in `src/lib/site.ts`.
+`ImageTile` (photo card: stacked on phones, hover-reveal from md) ·
+`FinalCta` (photo / shade / parallax) · `FaqSection` (+ FAQPage JSON-LD) ·
+`StatRow` (inline / columns) · `TestimonialMarquee` · `BookingEmbed` (Cal.com) ·
+`FadeIn` · `JsonLd` · `PageTransition` · `layout/Navbar` · `layout/Footer`.
+Site constants in `src/lib/site.ts`.
+
+## Images
+
+`public/images` holds Framer's original webp files byte for byte (jpg/png
+sources converted once at q90 / lossless). Do not re-encode them. next/image
+resizes per viewport at quality 90 (`images.qualities` in next.config.ts).
+
+## Page transition
+
+`PageTransition` drives the View Transitions API directly for internal link
+clicks; the animation is CSS on the `root` snapshot in globals.css. Do not add
+React `<ViewTransition>` boundaries without reading that component's comment,
+and never put a `transform` on an ancestor of the parallax `FinalCta`.
 
 - Every `className` starts with a PascalCase label (`className="ServiceCard flex ..."`).
 - Hover, active and focus-visible on everything clickable.

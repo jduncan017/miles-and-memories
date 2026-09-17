@@ -3,6 +3,7 @@ import { Analytics } from "~/components/Analytics";
 import { JsonLd } from "~/components/JsonLd";
 import { Footer } from "~/components/layout/Footer";
 import { Navbar } from "~/components/layout/Navbar";
+import { PageTransition } from "~/components/PageTransition";
 import { bodyFont, headingFont } from "~/fonts";
 import { SITE, absoluteUrl } from "~/lib/site";
 import "~/styles/globals.css";
@@ -54,6 +55,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html
       lang="en"
       className={`${bodyFont.variable} ${headingFont.variable} h-full antialiased`}
+      data-scroll-behavior="smooth"
     >
       <body className="flex min-h-full flex-col">
         <JsonLd data={organizationSchema} />
@@ -68,6 +70,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           {children}
         </main>
         <Footer />
+        <PageTransition />
         <Analytics />
       </body>
     </html>

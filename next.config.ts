@@ -11,6 +11,14 @@ const nextConfig: NextConfig = {
    * layout here requests wider than 1920, so 3840 is trimmed.
    */
   images: {
+    /*
+     * The sources in public/images are Framer's originals, already efficient
+     * webp, so the only re-encode is next/image's resize. At the default 75
+     * that pass visibly softened photos; 90 is indistinguishable from the
+     * source at display size. Being the only allowed value, every <Image>
+     * resolves to it without a per-call `quality` prop.
+     */
+    qualities: [90],
     minimumCacheTTL: 2678400,
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],
   },

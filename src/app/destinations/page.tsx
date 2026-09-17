@@ -85,7 +85,9 @@ export default function DestinationsPage() {
                 title={d.title}
                 image={d.card}
                 imageAlt={d.cardAlt}
-                ratio="aspect-square"
+                description={d.tagline}
+                mobileCta="View Guide"
+                desktopRatio="md:aspect-square"
                 sizes="(min-width: 64rem) 30rem, (min-width: 48rem) 50vw, 100vw"
               />
             </li>

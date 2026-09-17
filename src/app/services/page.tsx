@@ -60,7 +60,7 @@ export default function ServicesPage() {
       </SectionWrapper>
 
       <FinalCta
-        variant="dark"
+        variant="parallax"
         image="/images/beautiful-canal-city-with-pink-skies.webp"
         title="Stop Planning, Start Anticipating"
         body="Ready to experience what travel planning should feel like? Over 250 clients have discovered the difference between booking a trip and crafting an experience."

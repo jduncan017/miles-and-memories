@@ -39,22 +39,32 @@ const REASONS = [
   },
 ];
 
+// Descriptions are the live site's mobile card copy (it only showed them on
+// phones); the cards now reveal them on hover at every width.
 const SERVICE_TILES = [
   {
     image: "/images/cliffside-retreat-near-the-ocean.webp",
     alt: "Cliffside retreat near the ocean",
+    description:
+      "Zero-investment planning for conferences, incentive trips, and business travel. We work with your existing event teams and handle everything from budget management to on-site support.",
   },
   {
     image: "/images/four-people-enjoying-a-sunset.webp",
     alt: "Four people enjoying a sunset",
+    description:
+      "Spring break, formals, and group reunions made simple. Send us your group list, and we handle payment plans, itineraries, and even packing lists for groups up to 100+.",
   },
   {
     image: "/images/family-enjoying-the-sun-in-a-lake.webp",
     alt: "Family enjoying the sun in a lake",
+    description:
+      "Work with experts who know every Disney & Universal Skip-the-Line hack, cruise specialists who book the perfect cabin, and itinerary masters for overseas adventures with grandparents and toddlers alike.",
   },
   {
     image: "/images/woman-enjoying-beautiful-private-oceanside-pool.webp",
     alt: "Woman enjoying a private oceanside pool",
+    description:
+      "Private jets, exclusive resorts, African safaris, and door-to-door concierge service for travelers who want extraordinary without the hassle.",
   },
 ];
 
@@ -159,6 +169,7 @@ export default function HomePage() {
                 title={s.label}
                 image={SERVICE_TILES[i].image}
                 imageAlt={SERVICE_TILES[i].alt}
+                description={SERVICE_TILES[i].description}
               />
             </li>
           ))}
@@ -276,7 +287,7 @@ export default function HomePage() {
       </SectionWrapper>
 
       <FinalCta
-        variant="dark"
+        variant="parallax"
         image="/images/paddleboat-in-a-lake-near-mountains.webp"
         title="Your Dream Trip Is One Conversation Away"
         body="Join 250+ travelers who chose stress-free planning over sleepless nights researching hotels. Let's start planning your next adventure."
